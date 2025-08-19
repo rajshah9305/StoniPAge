@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,1031 +7,1632 @@
     <meta name="description" content="An elite, interactive love letter celebrating Stoni Cannabis with premium design and immersive experience.">
     <meta name="theme-color" content="#213d12">
     <title>Elite Love Letter for Stoni Cannabis</title>
-    
-    <!-- Performance optimizations -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    
-    <style>
-        /* =======================================================
-           ELITE DESIGN SYSTEM V2.2 - Refined by Gemini
-           Performance-optimized, accessibility-first premium experience
-           ======================================================= */
-        :root {
-            /* Elite Color Palette */
-            --primary-forest:   #1a331a;
-            --secondary-forest: #2d5016;
-            --accent-gold:      #d4af37;
-            --rich-gold:        #b8860b;
-            --warm-cream:       #fefdf9;
-            --soft-ivory:       #f8f6f0;
-            --warm-beige:       #f0ead6;
-            --earth-brown:      #8b4513;
-            --text-charcoal:    #2c2c2c;
-            --text-forest:      #1a2e1a;
-            --shadow-warm:      rgba(212,175,55,0.15);
-            --shadow-deep:      rgba(26,51,26,0.25);
-            --shadow-luxury:    rgba(26,51,26,0.35);
-            --glass-bg:         rgba(254,253,249,0.85);
-            --glass-border:     rgba(212,175,55,0.3);
 
-            /* Elite Typography System */
-            --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
-            --font-sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+```
+<!-- Performance optimizations -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
-            /* Elite Motion System */
-            --duration-instant: 100ms;
-            --duration-quick:   200ms;
-            --duration-smooth:  300ms;
-            --duration-elegant: 500ms;
-            --duration-luxe:    800ms;
-            
-            --ease-standard:  cubic-bezier(0.2, 0, 0, 1);
-            --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
-            --ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
-            --ease-elegant:   cubic-bezier(0.4, 0, 0.2, 1);
-            --ease-bounce:    cubic-bezier(0.68, -0.55, 0.265, 1.55);
+<style>
+    /* =======================================================
+       ELITE DESIGN SYSTEM V2.3 - Enhanced & Refined
+       Performance-optimized, accessibility-first premium experience
+       ======================================================= */
+    :root {
+        /* Elite Color Palette */
+        --primary-forest:   #1a331a;
+        --secondary-forest: #2d5016;
+        --accent-gold:      #d4af37;
+        --rich-gold:        #b8860b;
+        --warm-cream:       #fefdf9;
+        --soft-ivory:       #f8f6f0;
+        --warm-beige:       #f0ead6;
+        --earth-brown:      #8b4513;
+        --text-charcoal:    #2c2c2c;
+        --text-forest:      #1a2e1a;
+        --shadow-warm:      rgba(212,175,55,0.15);
+        --shadow-deep:      rgba(26,51,26,0.25);
+        --shadow-luxury:    rgba(26,51,26,0.35);
+        --glass-bg:         rgba(254,253,249,0.85);
+        --glass-border:     rgba(212,175,55,0.3);
 
-            /* Elite Spatial System */
-            --space-xs: 0.25rem;
-            --space-sm: 0.5rem;
-            --space-md: 1rem;
-            --space-lg: 1.5rem;
-            --space-xl: 2rem;
-            --space-2xl: 3rem;
-            --space-3xl: 4rem;
+        /* Elite Typography System */
+        --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+        --font-sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
 
-            --radius-sm: 8px;
-            --radius-md: 12px;
-            --radius-lg: 16px;
-            --radius-xl: 24px;
-            --radius-2xl: 32px;
+        /* Elite Motion System */
+        --duration-instant: 100ms;
+        --duration-quick:   200ms;
+        --duration-smooth:  300ms;
+        --duration-elegant: 500ms;
+        --duration-luxe:    800ms;
+        
+        --ease-standard:  cubic-bezier(0.2, 0, 0, 1);
+        --ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
+        --ease-accelerate: cubic-bezier(0.4, 0, 1, 1);
+        --ease-elegant:   cubic-bezier(0.4, 0, 0.2, 1);
+        --ease-bounce:    cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-            /* Elite Shadow System */
-            --shadow-subtle: 0 2px 4px var(--shadow-warm);
-            --shadow-medium: 0 4px 12px var(--shadow-warm), 0 2px 4px var(--shadow-deep);
-            --shadow-elevated: 0 8px 24px var(--shadow-warm), 0 4px 8px var(--shadow-deep);
-            --shadow-dramatic: 0 16px 40px var(--shadow-luxury), 0 8px 16px var(--shadow-deep);
-            --shadow-premium: 0 24px 60px var(--shadow-luxury), 0 12px 24px var(--shadow-deep);
-        }
+        /* Elite Spatial System */
+        --space-xs: 0.25rem;
+        --space-sm: 0.5rem;
+        --space-md: 1rem;
+        --space-lg: 1.5rem;
+        --space-xl: 2rem;
+        --space-2xl: 3rem;
+        --space-3xl: 4rem;
 
-        /* Reset & Base Styles */
+        --radius-sm: 8px;
+        --radius-md: 12px;
+        --radius-lg: 16px;
+        --radius-xl: 24px;
+        --radius-2xl: 32px;
+
+        /* Elite Shadow System */
+        --shadow-subtle: 0 2px 4px var(--shadow-warm);
+        --shadow-medium: 0 4px 12px var(--shadow-warm), 0 2px 4px var(--shadow-deep);
+        --shadow-elevated: 0 8px 24px var(--shadow-warm), 0 4px 8px var(--shadow-deep);
+        --shadow-dramatic: 0 16px 40px var(--shadow-luxury), 0 8px 16px var(--shadow-deep);
+        --shadow-premium: 0 24px 60px var(--shadow-luxury), 0 12px 24px var(--shadow-deep);
+    }
+
+    /* Reset & Base Styles */
+    *, *::before, *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 16px;
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+        font-family: var(--font-sans);
+        background: var(--warm-cream);
+        min-height: 100vh;
+        overflow-x: hidden;
+        color: var(--text-charcoal);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: 'liga' 1, 'kern' 1;
+        position: relative;
+    }
+
+    /* Luxury texture overlay */
+    body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background: 
+            radial-gradient(circle at 25% 25%, rgba(212,175,55,0.03) 0%, transparent 50%),
+            radial-gradient(circle at 75% 75%, rgba(26,51,26,0.02) 0%, transparent 50%),
+            linear-gradient(45deg, transparent 48%, rgba(212,175,55,0.01) 49%, rgba(212,175,55,0.01) 51%, transparent 52%);
+        background-size: 200px 200px, 300px 300px, 100px 100px;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    /* Accessibility */
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
         *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
         }
-
-        html {
-            font-size: 16px;
-            scroll-behavior: smooth;
-            -webkit-text-size-adjust: 100%;
+        
+        .card-flip-container:hover .card-flip-inner,
+        .card-flip-container.flipped .card-flip-inner {
+            transform: none !important;
         }
+    }
 
-        body {
-            font-family: var(--font-sans);
-            background: var(--warm-cream);
-            min-height: 100vh;
-            overflow-x: hidden;
-            color: var(--text-charcoal);
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            font-feature-settings: 'liga' 1, 'kern' 1;
-            position: relative;
-        }
+    /* =======================================================
+       LOADING EXPERIENCE
+       ======================================================= */
+    .loading-screen {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, var(--warm-cream) 0%, var(--soft-ivory) 100%);
+        z-index: 1000;
+        transition: opacity var(--duration-luxe) var(--ease-elegant), 
+                   transform var(--duration-luxe) var(--ease-elegant);
+    }
 
-        /* Luxury texture overlay */
-        body::before {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background: 
-                radial-gradient(circle at 25% 25%, rgba(212,175,55,0.03) 0%, transparent 50%),
-                radial-gradient(circle at 75% 75%, rgba(26,51,26,0.02) 0%, transparent 50%),
-                linear-gradient(45deg, transparent 48%, rgba(212,175,55,0.01) 49%, rgba(212,175,55,0.01) 51%, transparent 52%);
-            background-size: 200px 200px, 300px 300px, 100px 100px;
-            pointer-events: none;
-            z-index: 1;
-        }
+    .loading-screen.fade-out {
+        opacity: 0;
+        transform: scale(1.1);
+        pointer-events: none;
+    }
 
-        /* Accessibility */
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
-        }
+    .loading-text {
+        font-family: var(--font-serif);
+        font-size: clamp(2.5rem, 8vw, 5rem);
+        font-weight: 700;
+        font-style: italic;
+        color: var(--primary-forest);
+        text-align: center;
+        text-shadow: 0 4px 20px var(--shadow-warm);
+        margin-bottom: var(--space-xl);
+        animation: elegantEntrance 3s var(--ease-elegant);
+    }
 
-        @media (prefers-reduced-motion: reduce) {
-            *, *::before, *::after {
-                animation-duration: 0.01ms !important;
-                animation-iteration-count: 1 !important;
-                transition-duration: 0.01ms !important;
-                scroll-behavior: auto !important;
-            }
-        }
+    .loading-subtitle {
+        font-family: var(--font-sans);
+        font-size: clamp(1rem, 3vw, 1.5rem);
+        color: var(--earth-brown);
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        animation: elegantEntrance 3s var(--ease-elegant) 0.5s both;
+    }
 
-        /* =======================================================
-           LOADING EXPERIENCE
-           ======================================================= */
-        .loading-screen {
-            position: fixed;
-            inset: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, var(--warm-cream) 0%, var(--soft-ivory) 100%);
-            z-index: 1000;
-            transition: opacity var(--duration-luxe) var(--ease-elegant), 
-                       transform var(--duration-luxe) var(--ease-elegant);
-        }
+    .loading-progress {
+        width: 200px;
+        height: 4px;
+        background: rgba(212,175,55,0.2);
+        border-radius: 2px;
+        margin-top: var(--space-lg);
+        overflow: hidden;
+        animation: elegantEntrance 3s var(--ease-elegant) 1s both;
+    }
 
-        .loading-screen.fade-out {
+    .loading-bar {
+        height: 100%;
+        background: linear-gradient(90deg, var(--accent-gold), var(--rich-gold));
+        border-radius: 2px;
+        animation: loadingProgress 2s var(--ease-decelerate) 1.5s forwards;
+        transform: translateX(-100%);
+    }
+
+    @keyframes elegantEntrance {
+        0% { opacity: 0; transform: translateY(40px) scale(0.95); filter: blur(8px); }
+        60% { opacity: 1; transform: translateY(-8px) scale(1.02); filter: blur(0); }
+        100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes loadingProgress {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(0); }
+    }
+
+    /* =======================================================
+       ENVELOPE COMPONENT
+       ======================================================= */
+    .envelope-scene {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        opacity: 0;
+        filter: drop-shadow(var(--shadow-premium));
+        transition: all var(--duration-luxe) var(--ease-elegant);
+        will-change: transform, opacity;
+    }
+
+    .envelope-scene.visible {
+        opacity: 1;
+        animation: envelopeArrival 3s var(--ease-elegant) forwards;
+    }
+
+    .envelope-scene.exit {
+        transform: translate(-50%, -150vh) scale(0.3) rotate(25deg);
+        opacity: 0;
+        transition: all 2s var(--ease-accelerate);
+    }
+
+    @keyframes envelopeArrival {
+        0% { 
+            transform: translate(150vw, -80vh) rotate(45deg) scale(0.4);
             opacity: 0;
+        }
+        70% { 
+            transform: translate(-48%, -52%) rotate(-3deg) scale(1.08);
+            opacity: 0.9;
+        }
+        100% { 
+            transform: translate(-50%, -50%) rotate(0) scale(1);
+            opacity: 1;
+        }
+    }
+
+    .envelope {
+        width: clamp(320px, 85vw, 420px);
+        aspect-ratio: 420 / 280;
+        background: linear-gradient(135deg, var(--soft-ivory) 0%, var(--warm-beige) 100%);
+        position: relative;
+        border-radius: var(--radius-lg);
+        box-shadow: var(--shadow-dramatic);
+        cursor: pointer;
+        transition: all var(--duration-smooth) var(--ease-elegant);
+        border: 2px solid var(--glass-border);
+        overflow: hidden;
+    }
+
+    .envelope::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(45deg, 
+            transparent 30%, 
+            rgba(212,175,55,0.1) 50%, 
+            transparent 70%);
+        opacity: 0;
+        transition: opacity var(--duration-smooth) var(--ease-elegant);
+    }
+
+    .envelope:hover {
+        transform: scale(1.05) translateY(-12px) rotate(-1deg);
+        box-shadow: var(--shadow-premium);
+        border-color: var(--accent-gold);
+    }
+
+    .envelope:hover::before {
+        opacity: 1;
+    }
+
+    .envelope-flap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 55%;
+        background: linear-gradient(135deg, var(--accent-gold) 0%, var(--rich-gold) 100%);
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+        transform-origin: 50% 0;
+        transition: transform var(--duration-luxe) var(--ease-elegant);
+        z-index: 3;
+        border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+        box-shadow: inset 0 -4px 8px rgba(139,69,19,0.3);
+    }
+
+    .envelope.opening .envelope-flap {
+        transform: rotateX(180deg);
+    }
+
+    .envelope-seal {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px;
+        height: 60px;
+        background: radial-gradient(circle, var(--rich-gold) 0%, var(--earth-brown) 100%);
+        border-radius: 50%;
+        z-index: 4;
+        border: 3px solid var(--accent-gold);
+        box-shadow: var(--shadow-medium);
+        transition: all var(--duration-smooth) var(--ease-bounce);
+    }
+
+    .envelope:hover .envelope-seal {
+        transform: translate(-50%, -50%) scale(1.1) rotate(10deg);
+    }
+
+    .envelope-body {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 70%;
+        background: linear-gradient(135deg, var(--soft-ivory) 0%, var(--warm-beige) 100%);
+        border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    }
+
+    .interaction-hint {
+        position: absolute;
+        bottom: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--glass-bg);
+        backdrop-filter: blur(12px);
+        color: var(--text-forest);
+        border: 2px solid var(--glass-border);
+        padding: var(--space-lg) var(--space-xl);
+        border-radius: var(--radius-xl);
+        font-family: var(--font-sans);
+        font-weight: 600;
+        font-size: 1.125rem;
+        cursor: pointer;
+        box-shadow: var(--shadow-elevated);
+        transition: all var(--duration-smooth) var(--ease-elegant);
+        text-shadow: 0 1px 2px rgba(139,69,19,0.2);
+        letter-spacing: 0.5px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .interaction-hint::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(120deg, transparent, rgba(255,255,255,0.6), transparent);
+        transition: left var(--duration-elegant) var(--ease-elegant);
+    }
+
+    .interaction-hint:hover:not(:disabled)::before {
+        left: 100%;
+    }
+
+    .interaction-hint:hover:not(:disabled) {
+        transform: translateX(-50%) translateY(-8px) scale(1.05);
+        box-shadow: var(--shadow-dramatic);
+        border-color: var(--accent-gold);
+    }
+
+    .interaction-hint:disabled {
+        opacity: 0.7;
+        cursor: not-allowed;
+        transform: translateX(-50%) scale(0.95);
+    }
+
+    /* =======================================================
+       LETTER EXPERIENCE
+       ======================================================= */
+    .letter-overlay {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 200;
+        padding: var(--space-lg);
+        background: rgba(26,51,26,0.15);
+        backdrop-filter: blur(0px);
+        transition: all var(--duration-luxe) var(--ease-elegant);
+    }
+
+    .letter-overlay.revealed {
+        opacity: 1;
+        visibility: visible;
+        backdrop-filter: blur(8px);
+    }
+
+    .letter-document {
+        background: var(--warm-cream);
+        width: 100%;
+        max-width: 1000px;
+        max-height: 90vh;
+        overflow-y: auto;
+        padding: clamp(3rem, 8vw, 6rem) clamp(2rem, 10vw, 8rem);
+        border-radius: var(--radius-xl);
+        box-shadow: var(--shadow-premium);
+        position: relative;
+        transform: scale(0.7) rotateY(90deg);
+        transition: transform var(--duration-luxe) var(--ease-elegant);
+        border: 3px solid var(--glass-border);
+    }
+
+    .letter-document::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: 
+            linear-gradient(90deg, transparent 0%, rgba(212,175,55,0.03) 50%, transparent 100%),
+            linear-gradient(0deg, transparent 0%, rgba(212,175,55,0.02) 50%, transparent 100%);
+        background-size: 60px 60px, 80px 80px;
+        pointer-events: none;
+    }
+
+    .letter-overlay.revealed .letter-document {
+        transform: scale(1) rotateY(0);
+    }
+
+    .close-button {
+        position: absolute;
+        top: var(--space-lg);
+        right: var(--space-lg);
+        width: 44px;
+        height: 44px;
+        background: rgba(212,175,55,0.1);
+        backdrop-filter: blur(8px);
+        border: 2px solid var(--glass-border);
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0.8;
+        transition: all var(--duration-smooth) var(--ease-elegant);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+    }
+
+    .close-button:hover {
+        opacity: 1;
+        transform: scale(1.1) rotate(90deg);
+        background: rgba(212,175,55,0.2);
+        border-color: var(--accent-gold);
+    }
+
+    .close-button::before,
+    .close-button::after {
+        content: '';
+        position: absolute;
+        width: 18px;
+        height: 2px;
+        background: var(--earth-brown);
+        border-radius: 1px;
+    }
+
+    .close-button::before { transform: rotate(45deg); }
+    .close-button::after { transform: rotate(-45deg); }
+
+    /* Letter Content Styles */
+    .letter-header {
+        text-align: center;
+        margin-bottom: var(--space-3xl);
+        border-bottom: 3px double var(--accent-gold);
+        padding-bottom: var(--space-xl);
+        position: relative;
+    }
+
+    .letter-title {
+        font-family: var(--font-serif);
+        font-size: clamp(3rem, 8vw, 6rem);
+        font-weight: 800;
+        color: var(--primary-forest);
+        margin-bottom: var(--space-lg);
+        line-height: 1.1;
+        text-shadow: 0 6px 20px var(--shadow-warm);
+        letter-spacing: -0.02em;
+    }
+
+    .letter-subtitle {
+        font-family: var(--font-serif);
+        font-style: italic;
+        color: var(--earth-brown);
+        font-size: clamp(1.25rem, 3vw, 1.75rem);
+        margin-bottom: var(--space-xl);
+        font-weight: 500;
+    }
+
+    .letter-content {
+        font-family: var(--font-sans);
+        font-size: clamp(1.125rem, 2vw, 1.375rem);
+        line-height: 1.8;
+        color: var(--text-forest);
+        font-weight: 400;
+        position: relative;
+        z-index: 2;
+    }
+
+    .letter-section {
+        margin-bottom: var(--space-3xl);
+        position: relative;
+    }
+
+    .letter-section p {
+        margin-bottom: var(--space-xl);
+        text-align: justify;
+        text-indent: 2em;
+        hyphens: auto;
+    }
+
+    .section-title {
+        font-family: var(--font-serif);
+        font-size: clamp(2rem, 4vw, 2.75rem);
+        font-weight: 700;
+        color: var(--primary-forest);
+        margin-bottom: var(--space-2xl);
+        border-bottom: 2px solid var(--accent-gold);
+        padding-bottom: var(--space-lg);
+        text-shadow: 0 3px 12px var(--shadow-warm);
+        position: relative;
+    }
+
+    .section-title::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--rich-gold);
+        transition: width var(--duration-elegant) var(--ease-elegant);
+    }
+
+    .letter-section.visible .section-title::after {
+        width: 100%;
+    }
+
+    /* Enhanced Grid Layouts */
+    .content-grid {
+        display: grid;
+        gap: clamp(1.5rem, 4vw, 2.5rem);
+        margin: var(--space-xl) 0;
+    }
+
+    .strains-grid, .benefits-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .testimonials-grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    /* Enhanced Card Components with Flip Functionality */
+    .card-flip-container {
+        perspective: 1200px;
+        width: 100%;
+        height: auto;
+        min-height: 450px;
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+        margin-bottom: var(--space-md);
+    }
+
+    .card-flip-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        min-height: 450px;
+        text-align: center;
+        transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        transform-style: preserve-3d;
+    }
+
+    /* Desktop hover behavior - only preview, don't auto-flip */
+    @media (hover: hover) and (pointer: fine) {
+        .card-flip-container:hover:not(.flipped) .card-flip-inner {
+            transform: rotateY(15deg) scale(1.02);
+        }
+        
+        .card-flip-container:hover .card-front {
+            box-shadow: var(--shadow-premium);
+            border-color: var(--accent-gold);
+        }
+    }
+
+    /* Click behavior for all devices */
+    .card-flip-container.flipped .card-flip-inner {
+        transform: rotateY(180deg);
+    }
+
+    .card-face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        min-height: 450px;
+        backface-visibility: hidden;
+        border-radius: var(--radius-lg);
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+    }
+
+    .card-front {
+        background: var(--glass-bg);
+        backdrop-filter: blur(12px);
+        border: 2px solid var(--glass-border);
+        box-shadow: var(--shadow-elevated);
+        padding: var(--space-xl);
+        z-index: 2;
+        overflow: hidden;
+    }
+
+    .card-back {
+        background: linear-gradient(135deg, var(--primary-forest) 0%, var(--secondary-forest) 100%);
+        border: 2px solid var(--accent-gold);
+        box-shadow: var(--shadow-dramatic);
+        transform: rotateY(180deg);
+        padding: var(--space-lg);
+        color: var(--warm-cream);
+        overflow-y: auto;
+    }
+
+    .card-front::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, var(--accent-gold), var(--rich-gold));
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform var(--duration-elegant) var(--ease-elegant);
+    }
+
+    .card-flip-container:hover .card-front::before {
+        transform: scaleX(1);
+    }
+
+    .card-flip-container:hover .card-front {
+        box-shadow: var(--shadow-premium);
+        border-color: var(--accent-gold);
+    }
+
+    .premium-card {
+        background: transparent;
+        border: none;
+        padding: 0;
+        box-shadow: none;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: none;
+    }
+
+    .premium-card:hover {
+        transform: none;
+        box-shadow: none;
+        border-color: transparent;
+    }
+
+    .premium-card::before {
+        display: none;
+    }
+
+    .card-title {
+        font-family: var(--font-serif);
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--primary-forest);
+        margin-bottom: var(--space-md);
+        position: relative;
+    }
+
+    .card-back .card-title {
+        color: var(--accent-gold);
+        text-shadow: 0 2px 8px var(--shadow-warm);
+    }
+
+    .card-content {
+        color: var(--text-forest);
+        line-height: 1.6;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-back .card-content {
+        color: var(--warm-cream);
+        text-align: left;
+        padding: 0;
+        overflow-y: auto;
+        max-height: calc(450px - 4rem);
+    }
+
+    .card-back .card-content p {
+        margin-bottom: var(--space-md);
+    }
+
+    .highlight-stat {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: var(--accent-gold);
+        text-shadow: 0 2px 8px var(--shadow-warm);
+        margin-top: auto;
+        padding-top: var(--space-md);
+        text-align: center;
+        flex-shrink: 0;
+    }
+
+    .card-back .highlight-stat {
+        color: var(--rich-gold);
+        text-shadow: 0 3px 12px rgba(212,175,55,0.5);
+        margin-top: var(--space-md);
+        margin-bottom: var(--space-sm);
+    }
+
+    /* Back Card Content Styles */
+    .product-details {
+        margin-top: var(--space-sm);
+        margin-bottom: var(--space-md);
+        flex: 1;
+    }
+
+    .product-feature {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: var(--space-sm);
+        padding: var(--space-sm);
+        background: rgba(254,253,249,0.1);
+        border-radius: var(--radius-sm);
+        border-left: 3px solid var(--accent-gold);
+        transition: background-color var(--duration-smooth) var(--ease-elegant);
+        min-height: 44px;
+    }
+
+    .product-feature:hover {
+        background: rgba(254,253,249,0.15);
+    }
+
+    .feature-icon {
+        font-size: 1.25rem;
+        margin-right: var(--space-sm);
+        color: var(--accent-gold);
+        flex-shrink: 0;
+        margin-top: 2px;
+    }
+
+    .feature-text {
+        font-size: 0.95rem;
+        font-weight: 500;
+        line-height: 1.4;
+        flex: 1;
+    }
+
+    .price-range {
+        background: linear-gradient(135deg, var(--rich-gold), var(--accent-gold));
+        color: var(--primary-forest);
+        padding: var(--space-md);
+        border-radius: var(--radius-md);
+        font-weight: 700;
+        text-align: center;
+        margin-top: auto;
+        font-size: 1.1rem;
+        box-shadow: 0 4px 12px rgba(212,175,55,0.3);
+        transition: transform var(--duration-smooth) var(--ease-elegant);
+        flex-shrink: 0;
+    }
+
+    .price-range:hover {
+        transform: translateY(-2px);
+    }
+
+    .flip-indicator {
+        position: absolute;
+        bottom: var(--space-md);
+        right: var(--space-md);
+        background: rgba(212,175,55,0.3);
+        border: 2px solid var(--accent-gold);
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        color: var(--primary-forest);
+        font-weight: 700;
+        animation: pulseEnhanced 2s infinite;
+        transition: all var(--duration-smooth) var(--ease-elegant);
+        pointer-events: none;
+        z-index: 10;
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+        .card-flip-container:hover:not(.flipped) .flip-indicator {
+            background: rgba(212,175,55,0.5);
             transform: scale(1.1);
-            pointer-events: none;
+            animation: none;
         }
+    }
 
-        .loading-text {
-            font-family: var(--font-serif);
-            font-size: clamp(2.5rem, 8vw, 5rem);
-            font-weight: 700;
-            font-style: italic;
-            color: var(--primary-forest);
-            text-align: center;
-            text-shadow: 0 4px 20px var(--shadow-warm);
-            margin-bottom: var(--space-xl);
-            animation: elegantEntrance 3s var(--ease-elegant);
+    .card-flip-container.flipped .flip-indicator {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    @keyframes pulseEnhanced {
+        0%, 100% { 
+            box-shadow: 0 0 0 0 rgba(212,175,55,0.7);
+            transform: scale(1);
         }
-
-        .loading-subtitle {
-            font-family: var(--font-sans);
-            font-size: clamp(1rem, 3vw, 1.5rem);
-            color: var(--earth-brown);
-            font-weight: 500;
-            letter-spacing: 0.5px;
-            animation: elegantEntrance 3s var(--ease-elegant) 0.5s both;
+        50% { 
+            box-shadow: 0 0 0 10px rgba(212,175,55,0);
+            transform: scale(1.05);
         }
+    }
 
-        .loading-progress {
-            width: 200px;
-            height: 4px;
-            background: rgba(212,175,55,0.2);
-            border-radius: 2px;
-            margin-top: var(--space-lg);
-            overflow: hidden;
-            animation: elegantEntrance 3s var(--ease-elegant) 1s both;
-        }
+    /* Regular cards (non-flippable) */
+    .premium-card-regular {
+        background: var(--glass-bg);
+        backdrop-filter: blur(12px);
+        border: 2px solid var(--glass-border);
+        border-radius: var(--radius-lg);
+        padding: var(--space-xl);
+        transition: all var(--duration-smooth) var(--ease-elegant);
+        box-shadow: var(--shadow-elevated);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
 
-        .loading-bar {
-            height: 100%;
-            background: linear-gradient(90deg, var(--accent-gold), var(--rich-gold));
-            border-radius: 2px;
-            animation: loadingProgress 2s var(--ease-decelerate) 1.5s forwards;
-            transform: translateX(-100%);
-        }
+    .premium-card-regular::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, var(--accent-gold), var(--rich-gold));
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform var(--duration-elegant) var(--ease-elegant);
+    }
 
-        @keyframes elegantEntrance {
-            0% { opacity: 0; transform: translateY(40px) scale(0.95); filter: blur(8px); }
-            60% { opacity: 1; transform: translateY(-8px) scale(1.02); filter: blur(0); }
-            100% { opacity: 1; transform: translateY(0) scale(1); }
-        }
+    .premium-card-regular:hover {
+        transform: translateY(-12px) scale(1.02);
+        box-shadow: var(--shadow-dramatic);
+        border-color: var(--accent-gold);
+    }
 
-        @keyframes loadingProgress {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(0); }
-        }
+    .premium-card-regular:hover::before {
+        transform: scaleX(1);
+    }
 
-        /* =======================================================
-           ENVELOPE COMPONENT
-           ======================================================= */
-        .envelope-scene {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 100;
-            opacity: 0;
-            filter: drop-shadow(var(--shadow-premium));
-            transition: all var(--duration-luxe) var(--ease-elegant);
-            will-change: transform, opacity;
-        }
+    /* Signature Section */
+    .letter-signature {
+        text-align: center;
+        margin-top: var(--space-3xl);
+        padding-top: var(--space-xl);
+        border-top: 1px solid var(--glass-border);
+    }
 
-        .envelope-scene.visible {
-            opacity: 1;
-            animation: envelopeArrival 3s var(--ease-elegant) forwards;
-        }
+    .closing-text {
+        font-family: var(--font-serif);
+        font-style: italic;
+        font-size: 1.25rem;
+        color: var(--earth-brown);
+        margin-bottom: var(--space-lg);
+    }
 
-        .envelope-scene.exit {
-            transform: translate(-50%, -150vh) scale(0.3) rotate(25deg);
-            opacity: 0;
-            transition: all 2s var(--ease-accelerate);
-        }
+    .signature {
+        font-family: var(--font-serif);
+        font-size: clamp(2.5rem, 6vw, 4rem);
+        color: var(--primary-forest);
+        font-weight: 700;
+        font-style: italic;
+        text-shadow: 0 4px 15px var(--shadow-warm);
+    }
 
-        @keyframes envelopeArrival {
-            0% { 
-                transform: translate(150vw, -80vh) rotate(45deg) scale(0.4);
-                opacity: 0;
-            }
-            70% { 
-                transform: translate(-48%, -52%) rotate(-3deg) scale(1.08);
-                opacity: 0.9;
-            }
-            100% { 
-                transform: translate(-50%, -50%) rotate(0) scale(1);
-                opacity: 1;
-            }
-        }
+    /* Animation System */
+    .animate-in {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s var(--ease-elegant), 
+                   transform 0.8s var(--ease-elegant);
+    }
 
-        .envelope {
-            width: clamp(320px, 85vw, 420px);
-            aspect-ratio: 420 / 280;
-            background: linear-gradient(135deg, var(--soft-ivory) 0%, var(--warm-beige) 100%);
-            position: relative;
-            border-radius: var(--radius-lg);
-            box-shadow: var(--shadow-dramatic);
-            cursor: pointer;
-            transition: all var(--duration-smooth) var(--ease-elegant);
-            border: 2px solid var(--glass-border);
-            overflow: hidden;
-        }
+    .animate-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
-        .envelope::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(45deg, 
-                transparent 30%, 
-                rgba(212,175,55,0.1) 50%, 
-                transparent 70%);
-            opacity: 0;
-            transition: opacity var(--duration-smooth) var(--ease-elegant);
-        }
+    /* Staggered animation delays */
+    .animate-in:nth-child(1).visible { transition-delay: 0.1s; }
+    .animate-in:nth-child(2).visible { transition-delay: 0.2s; }
+    .animate-in:nth-child(3).visible { transition-delay: 0.3s; }
+    .animate-in:nth-child(4).visible { transition-delay: 0.4s; }
+    .animate-in:nth-child(5).visible { transition-delay: 0.5s; }
+    .animate-in:nth-child(6).visible { transition-delay: 0.6s; }
 
-        .envelope:hover {
-            transform: scale(1.05) translateY(-12px) rotate(-1deg);
-            box-shadow: var(--shadow-premium);
-            border-color: var(--accent-gold);
-        }
+    /* Custom Scrollbars */
+    .letter-document::-webkit-scrollbar {
+        width: 12px;
+    }
 
-        .envelope:hover::before {
-            opacity: 1;
-        }
+    .letter-document::-webkit-scrollbar-track {
+        background: rgba(248,246,240,0.5);
+        border-radius: 6px;
+    }
 
-        .envelope-flap {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 55%;
-            background: linear-gradient(135deg, var(--accent-gold) 0%, var(--rich-gold) 100%);
-            clip-path: polygon(0 0, 100% 0, 50% 100%);
-            transform-origin: 50% 0;
-            transition: transform var(--duration-luxe) var(--ease-elegant);
-            z-index: 3;
-            border-radius: var(--radius-lg) var(--radius-lg) 0 0;
-            box-shadow: inset 0 -4px 8px rgba(139,69,19,0.3);
-        }
+    .letter-document::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, var(--accent-gold), var(--rich-gold));
+        border-radius: 6px;
+        border: 2px solid rgba(248,246,240,0.5);
+    }
 
-        .envelope.opening .envelope-flap {
-            transform: rotateX(180deg);
-        }
+    .letter-document::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, var(--rich-gold), var(--earth-brown));
+    }
 
-        .envelope-seal {
-            position: absolute;
-            top: 35%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 60px;
-            height: 60px;
-            background: radial-gradient(circle, var(--rich-gold) 0%, var(--earth-brown) 100%);
-            border-radius: 50%;
-            z-index: 4;
-            border: 3px solid var(--accent-gold);
-            box-shadow: var(--shadow-medium);
-            transition: all var(--duration-smooth) var(--ease-bounce);
-        }
+    /* Custom Scrollbar for card backs */
+    .card-back .card-content::-webkit-scrollbar {
+        width: 8px;
+    }
 
-        .envelope:hover .envelope-seal {
-            transform: translate(-50%, -50%) scale(1.1) rotate(10deg);
-        }
+    .card-back .card-content::-webkit-scrollbar-track {
+        background: rgba(254,253,249,0.1);
+        border-radius: 4px;
+    }
 
-        .envelope-body {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 70%;
-            background: linear-gradient(135deg, var(--soft-ivory) 0%, var(--warm-beige) 100%);
-            border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-        }
+    .card-back .card-content::-webkit-scrollbar-thumb {
+        background: rgba(212,175,55,0.6);
+        border-radius: 4px;
+    }
 
-        .interaction-hint {
-            position: absolute;
-            bottom: -100px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: var(--glass-bg);
-            backdrop-filter: blur(12px);
-            color: var(--text-forest);
-            border: 2px solid var(--glass-border);
-            padding: var(--space-lg) var(--space-xl);
-            border-radius: var(--radius-xl);
-            font-family: var(--font-sans);
-            font-weight: 600;
-            font-size: 1.125rem;
-            cursor: pointer;
-            box-shadow: var(--shadow-elevated);
-            transition: all var(--duration-smooth) var(--ease-elegant);
-            text-shadow: 0 1px 2px rgba(139,69,19,0.2);
-            letter-spacing: 0.5px;
-            overflow: hidden;
-            position: relative;
-        }
+    .card-back .card-content::-webkit-scrollbar-thumb:hover {
+        background: rgba(212,175,55,0.8);
+    }
 
-        .interaction-hint::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(120deg, transparent, rgba(255,255,255,0.6), transparent);
-            transition: left var(--duration-elegant) var(--ease-elegant);
-        }
+    /* Enhanced focus states */
+    .card-flip-container:focus-visible {
+        outline: 3px solid var(--accent-gold) !important;
+        outline-offset: 4px !important;
+        border-radius: var(--radius-lg);
+    }
 
-        .interaction-hint:hover:not(:disabled)::before {
-            left: 100%;
-        }
+    /* Smooth transitions for all card states */
+    .card-flip-container * {
+        transition: inherit;
+    }
 
-        .interaction-hint:hover:not(:disabled) {
-            transform: translateX(-50%) translateY(-8px) scale(1.05);
-            box-shadow: var(--shadow-dramatic);
-            border-color: var(--accent-gold);
-        }
+    /* Ensure content is never cut off */
+    .card-back {
+        overflow: hidden;
+    }
 
-        .interaction-hint:disabled {
-            opacity: 0.7;
-            cursor: not-allowed;
-            transform: translateX(-50%) scale(0.95);
-        }
+    .card-back .premium-card {
+        height: 100%;
+        overflow: visible;
+    }
 
-        /* =======================================================
-           LETTER EXPERIENCE
-           ======================================================= */
-        .letter-overlay {
-            position: fixed;
-            inset: 0;
-            display: grid;
-            place-items: center;
-            opacity: 0;
-            visibility: hidden;
-            z-index: 200;
-            padding: var(--space-lg);
-            background: rgba(26,51,26,0.15);
-            backdrop-filter: blur(0px);
-            transition: all var(--duration-luxe) var(--ease-elegant);
-        }
+    /* Footer */
+    .footer {
+        text-align: center;
+        padding: var(--space-lg);
+        font-size: 0.875rem;
+        color: var(--earth-brown);
+        opacity: 0.8;
+        z-index: 10;
+        transition: opacity var(--duration-smooth) var(--ease-elegant);
+        font-family: var(--font-sans);
+        font-weight: 500;
+    }
 
-        .letter-overlay.revealed {
-            opacity: 1;
-            visibility: visible;
-            backdrop-filter: blur(8px);
-        }
+    .footer:hover {
+        opacity: 1;
+    }
 
+    .designer-name {
+        font-weight: 700;
+        color: var(--primary-forest);
+        animation: glow 3s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+        0%, 100% { text-shadow: 0 0 5px var(--accent-gold), 0 0 10px var(--accent-gold); }
+        50% { text-shadow: 0 0 15px var(--rich-gold), 0 0 25px var(--rich-gold); }
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
         .letter-document {
-            background: var(--warm-cream);
-            width: 100%;
-            max-width: 1000px;
-            max-height: 90vh;
-            overflow-y: auto;
-            padding: clamp(3rem, 8vw, 6rem) clamp(2rem, 10vw, 8rem);
-            border-radius: var(--radius-xl);
-            box-shadow: var(--shadow-premium);
-            position: relative;
-            transform: scale(0.7) rotateY(90deg);
-            transition: transform var(--duration-luxe) var(--ease-elegant);
-            border: 3px solid var(--glass-border);
+            padding: clamp(2rem, 6vw, 4rem) clamp(1.5rem, 8vw, 6rem);
         }
-
-        .letter-document::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: 
-                linear-gradient(90deg, transparent 0%, rgba(212,175,55,0.03) 50%, transparent 100%),
-                linear-gradient(0deg, transparent 0%, rgba(212,175,55,0.02) 50%, transparent 100%);
-            background-size: 60px 60px, 80px 80px;
-            pointer-events: none;
+        
+        .card-flip-container {
+            min-height: 430px;
         }
-
-        .letter-overlay.revealed .letter-document {
-            transform: scale(1) rotateY(0);
+        
+        .card-face {
+            min-height: 430px;
         }
-
-        .close-button {
-            position: absolute;
-            top: var(--space-lg);
-            right: var(--space-lg);
-            width: 44px;
-            height: 44px;
-            background: rgba(212,175,55,0.1);
-            backdrop-filter: blur(8px);
-            border: 2px solid var(--glass-border);
-            border-radius: 50%;
-            cursor: pointer;
-            opacity: 0.8;
-            transition: all var(--duration-smooth) var(--ease-elegant);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 10;
-        }
-
-        .close-button:hover {
-            opacity: 1;
-            transform: scale(1.1) rotate(90deg);
-            background: rgba(212,175,55,0.2);
-            border-color: var(--accent-gold);
-        }
-
-        .close-button::before,
-        .close-button::after {
-            content: '';
-            position: absolute;
-            width: 18px;
-            height: 2px;
-            background: var(--earth-brown);
-            border-radius: 1px;
-        }
-
-        .close-button::before { transform: rotate(45deg); }
-        .close-button::after { transform: rotate(-45deg); }
-
-        /* Letter Content Styles */
-        .letter-header {
-            text-align: center;
-            margin-bottom: var(--space-3xl);
-            border-bottom: 3px double var(--accent-gold);
-            padding-bottom: var(--space-xl);
-            position: relative;
-        }
-
-        .letter-title {
-            font-family: var(--font-serif);
-            font-size: clamp(3rem, 8vw, 6rem);
-            font-weight: 800;
-            color: var(--primary-forest);
-            margin-bottom: var(--space-lg);
-            line-height: 1.1;
-            text-shadow: 0 6px 20px var(--shadow-warm);
-            letter-spacing: -0.02em;
-        }
-
-        .letter-subtitle {
-            font-family: var(--font-serif);
-            font-style: italic;
-            color: var(--earth-brown);
-            font-size: clamp(1.25rem, 3vw, 1.75rem);
-            margin-bottom: var(--space-xl);
-            font-weight: 500;
-        }
-
-        .letter-content {
-            font-family: var(--font-sans);
-            font-size: clamp(1.125rem, 2vw, 1.375rem);
-            line-height: 1.8;
-            color: var(--text-forest);
-            font-weight: 400;
-            position: relative;
-            z-index: 2;
-        }
-
-        .letter-section {
-            margin-bottom: var(--space-3xl);
-            position: relative;
-        }
-
-        .letter-section p {
-            margin-bottom: var(--space-xl);
-            text-align: justify;
-            text-indent: 2em;
-            hyphens: auto;
-        }
-
-        .section-title {
-            font-family: var(--font-serif);
-            font-size: clamp(2rem, 4vw, 2.75rem);
-            font-weight: 700;
-            color: var(--primary-forest);
-            margin-bottom: var(--space-2xl);
-            border-bottom: 2px solid var(--accent-gold);
-            padding-bottom: var(--space-lg);
-            text-shadow: 0 3px 12px var(--shadow-warm);
-            position: relative;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--rich-gold);
-            transition: width var(--duration-elegant) var(--ease-elegant);
-        }
-
-        .letter-section.visible .section-title::after {
-            width: 100%;
-        }
-
-        /* Enhanced Grid Layouts */
-        .content-grid {
-            display: grid;
-            gap: clamp(1.5rem, 4vw, 2.5rem);
-            margin: var(--space-xl) 0;
-        }
-
+        
         .strains-grid, .benefits-grid {
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         }
+    }
 
-        .testimonials-grid {
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    @media (max-width: 768px) {
+        .letter-document {
+            padding: var(--space-xl) var(--space-lg);
+            margin: var(--space-md);
+            max-height: 85vh;
+        }
+        
+        .envelope {
+            width: clamp(280px, 90vw, 380px);
         }
 
-        /* Enhanced Card Components */
-        .premium-card {
-            background: var(--glass-bg);
-            backdrop-filter: blur(12px);
-            border: 2px solid var(--glass-border);
-            border-radius: var(--radius-lg);
-            padding: var(--space-xl);
-            transition: all var(--duration-smooth) var(--ease-elegant);
-            box-shadow: var(--shadow-elevated);
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
+        .letter-title {
+            font-size: clamp(2.5rem, 10vw, 4rem);
         }
 
-        .premium-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, var(--accent-gold), var(--rich-gold));
-            transform: scaleX(0);
-            transform-origin: left;
-            transition: transform var(--duration-elegant) var(--ease-elegant);
+        .letter-subtitle {
+            font-size: clamp(1.1rem, 4vw, 1.5rem);
         }
 
-        .premium-card:hover {
-            transform: translateY(-12px) scale(1.02);
-            box-shadow: var(--shadow-dramatic);
-            border-color: var(--accent-gold);
+        .section-title {
+            font-size: clamp(1.8rem, 5vw, 2.25rem);
         }
 
-        .premium-card:hover::before {
-            transform: scaleX(1);
+        .letter-content {
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
         }
-
-        .card-title {
-            font-family: var(--font-serif);
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--primary-forest);
-            margin-bottom: var(--space-md);
+        
+        .card-flip-container {
+            min-height: 480px;
+            height: auto;
         }
-
-        .card-content {
-            color: var(--text-forest);
-            line-height: 1.6;
-            flex-grow: 1;
+        
+        .card-flip-inner {
+            min-height: 480px;
         }
-
-        .highlight-stat {
-            font-size: 2.5rem;
-            font-weight: 800;
-            color: var(--accent-gold);
-            text-shadow: 0 2px 8px var(--shadow-warm);
-            margin-top: auto;
-            padding-top: var(--space-md);
+        
+        .card-face {
+            min-height: 480px;
         }
-
-
-
-        /* Signature Section */
-        .letter-signature {
-            text-align: center;
-            margin-top: var(--space-3xl);
-            padding-top: var(--space-xl);
-            border-top: 1px solid var(--glass-border);
-        }
-
-        .closing-text {
-            font-family: var(--font-serif);
-            font-style: italic;
-            font-size: 1.25rem;
-            color: var(--earth-brown);
-            margin-bottom: var(--space-lg);
-        }
-
-        .signature {
-            font-family: var(--font-serif);
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            color: var(--primary-forest);
-            font-weight: 700;
-            font-style: italic;
-            text-shadow: 0 4px 15px var(--shadow-warm);
-        }
-
-        /* Animation System */
-        .animate-in {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 0.8s var(--ease-elegant), 
-                       transform 0.8s var(--ease-elegant);
-        }
-
-        .animate-in.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Staggered animation delays */
-        .animate-in:nth-child(1).visible { transition-delay: 0.1s; }
-        .animate-in:nth-child(2).visible { transition-delay: 0.2s; }
-        .animate-in:nth-child(3).visible { transition-delay: 0.3s; }
-        .animate-in:nth-child(4).visible { transition-delay: 0.4s; }
-        .animate-in:nth-child(5).visible { transition-delay: 0.5s; }
-        .animate-in:nth-child(6).visible { transition-delay: 0.6s; }
-
-        /* Custom Scrollbar */
-        .letter-document::-webkit-scrollbar {
-            width: 12px;
-        }
-
-        .letter-document::-webkit-scrollbar-track {
-            background: rgba(248,246,240,0.5);
-            border-radius: 6px;
-        }
-
-        .letter-document::-webkit-scrollbar-thumb {
-            background: linear-gradient(180deg, var(--accent-gold), var(--rich-gold));
-            border-radius: 6px;
-            border: 2px solid rgba(248,246,240,0.5);
-        }
-
-        .letter-document::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(180deg, var(--rich-gold), var(--earth-brown));
-        }
-
-        /* Footer */
-        .footer {
-            text-align: center;
+        
+        .card-back {
             padding: var(--space-lg);
-            font-size: 0.875rem;
-            color: var(--earth-brown);
-            opacity: 0.8;
-            z-index: 10;
-            transition: opacity var(--duration-smooth) var(--ease-elegant);
-            font-family: var(--font-sans);
-            font-weight: 500;
         }
-
-        .footer:hover {
-            opacity: 1;
+        
+        .card-back .card-content {
+            max-height: calc(480px - 3rem);
         }
-
-        .designer-name {
-            font-weight: 700;
-            color: var(--primary-forest);
-            animation: glow 3s ease-in-out infinite;
+        
+        .flip-indicator {
+            width: 42px;
+            height: 42px;
+            font-size: 1rem;
+            bottom: var(--space-lg);
+            right: var(--space-lg);
         }
-
-        @keyframes glow {
-            0%, 100% { text-shadow: 0 0 5px var(--accent-gold), 0 0 10px var(--accent-gold); }
-            50% { text-shadow: 0 0 15px var(--rich-gold), 0 0 25px var(--rich-gold); }
-        }
-
-        /* Responsive Design */
-        @media (max-width: 1024px) {
-            .letter-document {
-                padding: clamp(2rem, 6vw, 4rem) clamp(1.5rem, 8vw, 6rem);
+        
+        @keyframes pulseMobile {
+            0%, 100% { 
+                box-shadow: 0 0 0 0 rgba(212,175,55,0.7);
+                transform: scale(1);
+            }
+            50% { 
+                box-shadow: 0 0 0 12px rgba(212,175,55,0);
+                transform: scale(1.1);
             }
         }
+        
+        .flip-indicator {
+            animation: pulseMobile 2s infinite;
+        }
+    }
 
-        @media (max-width: 768px) {
-            .letter-document {
-                padding: var(--space-xl) var(--space-lg);
-                margin: var(--space-md);
-                max-height: 85vh;
-            }
-            
-            .envelope {
-                width: clamp(280px, 90vw, 380px);
-            }
-
-            .letter-title {
-                font-size: clamp(2.5rem, 10vw, 4rem);
-            }
-
-            .letter-subtitle {
-                font-size: clamp(1.1rem, 4vw, 1.5rem);
-            }
-
-            .section-title {
-                font-size: clamp(1.8rem, 5vw, 2.25rem);
-            }
-
-            .letter-content {
-                font-size: clamp(1rem, 2.5vw, 1.25rem);
-            }
+    @media (max-width: 480px) {
+        .content-grid {
+            gap: var(--space-lg);
+            grid-template-columns: 1fr;
+        }
+        
+        .premium-card, .premium-card-regular {
+            padding: var(--space-lg);
         }
 
-        @media (max-width: 480px) {
-            .content-grid {
-                gap: var(--space-lg);
-                grid-template-columns: 1fr;
-            }
-            
-            .premium-card {
-                padding: var(--space-lg);
-            }
-
-            .letter-document {
-                padding: var(--space-lg) var(--space-md);
-                max-height: 80vh;
-            }
-
-            .letter-header {
-                margin-bottom: var(--space-xl);
-                padding-bottom: var(--space-lg);
-            }
-
-            .letter-section {
-                margin-bottom: var(--space-xl);
-            }
-
-            .letter-section p {
-                text-indent: 1.5em;
-            }
+        .letter-document {
+            padding: var(--space-lg) var(--space-md);
+            max-height: 80vh;
         }
 
-        /* High contrast mode support */
-        @media (prefers-contrast: high) {
-            :root {
-                --primary-forest: #000000;
-                --text-charcoal: #000000;
-                --accent-gold: #B8860B;
-                --warm-cream: #FFFFFF;
-            }
+        .letter-header {
+            margin-bottom: var(--space-xl);
+            padding-bottom: var(--space-lg);
         }
 
-        /* Print styles */
-        @media print {
-            .envelope-scene,
-            .interaction-hint,
-            .close-button,
-            .footer {
-                display: none;
-            }
-            
-            .letter-overlay {
-                position: static;
-                background: white;
-            }
-            
-            .letter-document {
-                box-shadow: none;
-                max-height: none;
-                overflow: visible;
-            }
+        .letter-section {
+            margin-bottom: var(--space-xl);
         }
-    </style>
+
+        .letter-section p {
+            text-indent: 1.5em;
+        }
+        
+        .card-flip-container {
+            min-height: 520px;
+            height: auto;
+        }
+        
+        .card-flip-inner {
+            min-height: 520px;
+        }
+        
+        .card-face {
+            min-height: 520px;
+        }
+        
+        .card-front, .card-back {
+            padding: var(--space-lg);
+        }
+        
+        .card-back .card-content {
+            max-height: calc(520px - 3rem);
+            overflow-y: auto;
+        }
+        
+        .product-feature {
+            font-size: 0.9rem;
+            padding: var(--space-sm);
+            margin-bottom: var(--space-xs);
+        }
+        
+        .feature-icon {
+            font-size: 1.1rem;
+        }
+        
+        .price-range {
+            font-size: 1rem;
+            padding: var(--space-sm) var(--space-md);
+            margin-top: var(--space-sm);
+        }
+        
+        .highlight-stat {
+            font-size: 2rem;
+            margin-top: var(--space-sm);
+            margin-bottom: var(--space-xs);
+        }
+        
+        .card-title {
+            font-size: 1.3rem;
+            margin-bottom: var(--space-sm);
+        }
+    }
+
+    /* High contrast mode support */
+    @media (prefers-contrast: high) {
+        :root {
+            --primary-forest: #000000;
+            --text-charcoal: #000000;
+            --accent-gold: #B8860B;
+            --warm-cream: #FFFFFF;
+        }
+    }
+
+    /* Print styles */
+    @media print {
+        .envelope-scene,
+        .interaction-hint,
+        .close-button,
+        .footer,
+        .flip-indicator {
+            display: none;
+        }
+        
+        .letter-overlay {
+            position: static;
+            background: white;
+        }
+        
+        .letter-document {
+            box-shadow: none;
+            max-height: none;
+            overflow: visible;
+        }
+        
+        .card-flip-container {
+            height: auto;
+        }
+        
+        .card-front {
+            position: static;
+            transform: none;
+        }
+        
+        .card-back {
+            display: none;
+        }
+    }
+</style>
+```
+
 </head>
 
 <body>
     <div class="sr-only" id="live-region" aria-live="polite" aria-atomic="true"></div>
     <a href="#letter-content" class="sr-only">Skip to letter content</a>
-    
-    <main>
-        <!-- Loading Experience -->
-        <section class="loading-screen" id="loadingScreen" aria-label="Loading">
-            <h1 class="loading-text">A Letter for Stoni</h1>
-            <p class="loading-subtitle">An homage to the finest cannabis in Calgary.</p>
-            <div class="loading-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-                <div class="loading-bar"></div>
+
+```
+<main>
+    <!-- Loading Experience -->
+    <section class="loading-screen" id="loadingScreen" aria-label="Loading">
+        <h1 class="loading-text">A Letter for Stoni</h1>
+        <p class="loading-subtitle">An homage to the finest cannabis in Calgary.</p>
+        <div class="loading-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div class="loading-bar"></div>
+        </div>
+    </section>
+
+    <!-- Envelope Scene -->
+    <section class="envelope-scene" id="envelopeScene" aria-hidden="true">
+        <div class="envelope" id="envelope" role="button" tabindex="0" 
+             aria-label="Elegant envelope containing a special letter. Click or press enter to open.">
+            <div class="envelope-body"></div>
+            <div class="envelope-flap"></div>
+            <div class="envelope-seal"></div>
+        </div>
+        <button class="interaction-hint" id="openButton" 
+                aria-controls="letterOverlay" aria-expanded="false"
+                aria-describedby="envelope">
+            Open with Love
+        </button>
+    </section>
+
+    <!-- Letter Experience -->
+    <section class="letter-overlay" id="letterOverlay" aria-modal="true" role="dialog" 
+             aria-labelledby="letterTitle" aria-hidden="true">
+        <article class="letter-document" id="letterDocument" tabindex="-1">
+            <button class="close-button" id="closeButton" aria-label="Close letter and return to envelope"></button>
+            
+            <header class="letter-header animate-in">
+                <h1 class="letter-title" id="letterTitle">My Dearest Stoni</h1>
+                <p class="letter-subtitle">A heartfelt tribute to Calgary's finest</p>
+            </header>
+
+            <div class="letter-content" id="letter-content">
+                <section class="letter-section animate-in">
+                    <h2 class="section-title">A Love That Flourishes</h2>
+                    <p>From the moment I discovered your service, my world transformed. Your unwavering commitment to excellence, your lightning-fast delivery across Calgary, and the genuine warmth with which you treat every customer has captured my heart and earned my deepest respect.</p>
+                    <p>You're not merely a provider — you're a curator of magical moments, a craftsman of unparalleled quality, and a guardian of trust. Every interaction feels like coming home to a place where authenticity and care are not just promised, but delivered with every single experience.</p>
+                </section>
+
+                <section class="letter-section animate-in">
+                    <h2 class="section-title">An Unrivaled Selection</h2>
+                    <div class="content-grid strains-grid">
+                        <div class="card-flip-container" tabindex="0" role="button" 
+                             aria-label="Premium Flower - Click to see detailed information">
+                            <div class="card-flip-inner">
+                                <div class="card-face card-front">
+                                    <div class="premium-card">
+                                        <h3 class="card-title">🌿 Exquisite Flower</h3>
+                                        <div class="card-content">
+                                            <p>A garden of earthly delights, from affordable ounces to exotic, AAAA-grade strains. Your selection is a testament to a commitment to quality and variety. Each bud is a masterpiece.</p>
+                                            <div class="highlight-stat">AAAA</div>
+                                            <p>Top-grade strains</p>
+                                        </div>
+                                        <div class="flip-indicator" aria-hidden="true">↻</div>
+                                    </div>
+                                </div>
+                                <div class="card-face card-back">
+                                    <div class="premium-card">
+                                        <h3 class="card-title">🌿 Premium Flower Collection</h3>
+                                        <div class="card-content">
+                                            <div class="product-details">
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🔥</span>
+                                                    <span class="feature-text">Indica, Sativa & Hybrid strains</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">⭐</span>
+                                                    <span class="feature-text">AAAA+ exotic strains available</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🌱</span>
+                                                    <span class="feature-text">Locally grown & imported premium</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🔒</span>
+                                                    <span class="feature-text">Lab tested for purity & potency</span>
+                                                </div>
+                                            </div>
+                                            <div class="price-range">From $89 - $320/oz</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-flip-container" tabindex="0" role="button" 
+                             aria-label="Premium Concentrates - Click to see detailed information">
+                            <div class="card-flip-inner">
+                                <div class="card-face card-front">
+                                    <div class="premium-card">
+                                        <h3 class="card-title">💎 Potent Concentrates</h3>
+                                        <div class="card-content">
+                                            <p>The epitome of purity and potency. A diverse collection of shatters, waxes, and oils that promise a clean, powerful, and refined experience for the discerning connoisseur.</p>
+                                            <div class="highlight-stat">95%</div>
+                                            <p>Average purity</p>
+                                        </div>
+                                        <div class="flip-indicator" aria-hidden="true">↻</div>
+                                    </div>
+                                </div>
+                                <div class="card-face card-back">
+                                    <div class="premium-card">
+                                        <h3 class="card-title">💎 Premium Concentrates</h3>
+                                        <div class="card-content">
+                                            <div class="product-details">
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🧪</span>
+                                                    <span class="feature-text">Shatter, Wax, Live Resin & Rosin</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🔬</span>
+                                                    <span class="feature-text">90-98% THC concentration</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">❄️</span>
+                                                    <span class="feature-text">Flash-frozen for maximum terpenes</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🎯</span>
+                                                    <span class="feature-text">Solventless & BHO options</span>
+                                                </div>
+                                            </div>
+                                            <div class="price-range">From $25 - $80/g</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-flip-container" tabindex="0" role="button" 
+                             aria-label="Artisan Edibles - Click to see detailed information">
+                            <div class="card-flip-inner">
+                                <div class="card-face card-front">
+                                    <div class="premium-card">
+                                        <h3 class="card-title">🍬 Delectable Edibles</h3>
+                                        <div class="card-content">
+                                            <p>Gourmet creations that tantalize the taste buds and elevate the spirit. Your edibles are crafted with precision, offering a delicious and reliable journey into euphoria.</p>
+                                            <div class="highlight-stat">100%</div>
+                                            <p>Satisfaction guarantee</p>
+                                        </div>
+                                        <div class="flip-indicator" aria-hidden="true">↻</div>
+                                    </div>
+                                </div>
+                                <div class="card-face card-back">
+                                    <div class="premium-card">
+                                        <h3 class="card-title">🍬 Artisan Edibles</h3>
+                                        <div class="card-content">
+                                            <div class="product-details">
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🍫</span>
+                                                    <span class="feature-text">Chocolates, Gummies & Baked goods</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">⚡</span>
+                                                    <span class="feature-text">5mg - 1000mg dosing options</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🌿</span>
+                                                    <span class="feature-text">Full spectrum & isolate varieties</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🏆</span>
+                                                    <span class="feature-text">Award-winning brands only</span>
+                                                </div>
+                                            </div>
+                                            <div class="price-range">From $8 - $150</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-flip-container" tabindex="0" role="button" 
+                             aria-label="Luxury Accessories - Click to see detailed information">
+                            <div class="card-flip-inner">
+                                <div class="card-face card-front">
+                                    <div class="premium-card">
+                                        <h3 class="card-title">✨ Premium Accessories</h3>
+                                        <div class="card-content">
+                                            <p>The perfect tools to complement the perfect product. From elegant vaporizers to artisan glass, your accessories enhance every moment of the Stoni experience.</p>
+                                            <div class="highlight-stat">Elite</div>
+                                            <p>Curated selection</p>
+                                        </div>
+                                        <div class="flip-indicator" aria-hidden="true">↻</div>
+                                    </div>
+                                </div>
+                                <div class="card-face card-back">
+                                    <div class="premium-card">
+                                        <h3 class="card-title">✨ Luxury Accessories</h3>
+                                        <div class="card-content">
+                                            <div class="product-details">
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">💨</span>
+                                                    <span class="feature-text">Premium vaporizers & devices</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🔥</span>
+                                                    <span class="feature-text">Artisan glass & water pipes</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">📱</span>
+                                                    <span class="feature-text">Smart tech & precision tools</span>
+                                                </div>
+                                                <div class="product-feature">
+                                                    <span class="feature-icon" aria-hidden="true">🎁</span>
+                                                    <span class="feature-text">Gift sets & storage solutions</span>
+                                                </div>
+                                            </div>
+                                            <div class="price-range">From $15 - $800</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="letter-section animate-in">
+                    <h2 class="section-title">The Stoni Standard of Service</h2>
+                    <div class="content-grid benefits-grid">
+                        <div class="premium-card-regular">
+                            <h3 class="card-title">🚀 FREE 1-Hour Delivery</h3>
+                            <div class="card-content">You don't just promise speed; you deliver it. Free delivery in under an hour is not just a service, it's a statement of your dedication to my immediate happiness.</div>
+                        </div>
+                        <div class="premium-card-regular">
+                            <h3 class="card-title">🛰️ Live Order Tracking</h3>
+                            <div class="card-content">The anticipation builds as I watch my order journey to my doorstep in real-time. This transparency and control is just another reason why you are in a league of your own.</div>
+                        </div>
+                        <div class="premium-card-regular">
+                            <h3 class="card-title">🎁 A Royal Welcome</h3>
+                            <div class="card-content">Two free pre-rolls for new customers is more than a promotion; it's a warm embrace into the Stoni family. A gesture that says, "We're glad you're here."</div>
+                        </div>
+                        <div class="premium-card-regular">
+                            <h3 class="card-title">⭐ Glowing Reviews</h3>
+                            <div class="card-content">A chorus of praise from satisfied customers echoes my own sentiments. The love for Stoni is a shared experience, a community of aficionados who know they've found the best.</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="letter-section animate-in">
+                    <h2 class="section-title">Love from Calgary</h2>
+                    <div class="content-grid testimonials-grid">
+                        <div class="premium-card-regular">
+                            <h3 class="card-title">Jessica P. - Downtown</h3>
+                            <div class="card-content">"Stoni is the only service I trust for fast, reliable delivery in the city. The 1-hour promise is real, and the quality is always top-notch. They've earned a customer for life."</div>
+                        </div>
+                        <div class="premium-card-regular">
+                            <h3 class="card-title">David G. - Airdrie</h3>
+                            <div class="card-content">"I'm just outside Calgary and the delivery is still incredibly fast. The drivers are professional and the online tracking is a game-changer. Stoni makes it all so easy."</div>
+                        </div>
+                        <div class="premium-card-regular">
+                            <h3 class="card-title">Emily R. - Chestermere</h3>
+                            <div class="card-content">"The quality of the exotic strains is simply unmatched in Alberta. Every order feels like a special occasion. Thank you, Stoni, for bringing this to our area!"</div>
+                        </div>
+                        <div class="premium-card-regular">
+                            <h3 class="card-title">Mike B. - Okotoks</h3>
+                            <div class="card-content">"As a long-time connoisseur, I'm blown away by the consistency and potency. The customer service is the best I've ever experienced. Stoni is the gold standard."</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="letter-section animate-in">
+                    <h2 class="section-title">The Art of Cannabis</h2>
+                    <p>Your dedication to innovation is not just about technology; it's about elevating the entire cannabis experience into an art form. You've seamlessly integrated a cutting-edge digital interface with the timeless, human touch of connoisseurship. This isn't just ordering; it's an exploration.</p>
+                    <p>From pioneering new extraction methods to developing proprietary strains that are the envy of the industry, you never settle for "good enough." You are relentless in your pursuit of perfection, and it shows in every single product that graces your menu.</p>
+                </section>
+
+                <section class="letter-section animate-in">
+                    <h2 class="section-title">More Than a Brand</h2>
+                    <p>What truly sets you apart is that you have transcended the traditional vendor-customer relationship. You've built a community founded on quality, expertise, and a shared passion for excellence. You are not just the best in the business — you ARE the business.</p>
+                    <p>Your commitment to education, your support for local growers, and your advocacy for responsible consumption demonstrate that you're building something much larger than a delivery service. You're cultivating a movement toward a higher standard, and for that, you have my eternal gratitude.</p>
+                </section>
+
+                <section class="letter-signature animate-in">
+                    <p class="closing-text">With endless admiration and gratitude,</p>
+                    <p class="signature">A Forever Devoted Customer</p>
+                    <p style="font-style: italic; color: var(--earth-brown); margin-top: var(--space-lg);">
+                        P.S. Thank you for raising the bar so high that everyone else is still trying to reach it. ✨
+                    </p>
+                </section>
             </div>
-        </section>
+        </article>
+    </section>
+</main>
 
-        <!-- Envelope Scene -->
-        <section class="envelope-scene" id="envelopeScene" aria-hidden="true">
-            <div class="envelope" id="envelope" role="button" tabindex="0" 
-                 aria-label="Elegant envelope containing a special letter. Click or press enter to open.">
-                <div class="envelope-body"></div>
-                <div class="envelope-flap"></div>
-                <div class="envelope-seal"></div>
-            </div>
-            <button class="interaction-hint" id="openButton" 
-                    aria-controls="letterOverlay" aria-expanded="false"
-                    aria-describedby="envelope">
-                Open with Love
-            </button>
-        </section>
+<footer class="footer">
+    <p>Designed by <span class="designer-name">RAJ</span></p>
+</footer>
 
-        <!-- Letter Experience -->
-        <section class="letter-overlay" id="letterOverlay" aria-modal="true" role="dialog" 
-                 aria-labelledby="letterTitle" aria-hidden="true">
-            <article class="letter-document" id="letterDocument" tabindex="-1">
-                <button class="close-button" id="closeButton" aria-label="Close letter and return to envelope"></button>
-                
-                <header class="letter-header animate-in">
-                    <h1 class="letter-title" id="letterTitle">My Dearest Stoni</h1>
-                    <p class="letter-subtitle">A heartfelt tribute to Calgary's finest</p>
-                </header>
+<script>
+/* =======================================================
+   ELITE INTERACTION ENGINE V2.3 - Enhanced & Refined
+   Performance-optimized, accessibility-first experience
+   ======================================================= */
+(() => {
+    'use strict';
 
-                <div class="letter-content" id="letter-content">
-                    <section class="letter-section animate-in">
-                        <h2 class="section-title">A Love That Flourishes</h2>
-                        <p>From the moment I discovered your service, my world transformed. Your unwavering commitment to excellence, your lightning-fast delivery across Calgary, and the genuine warmth with which you treat every customer has captured my heart and earned my deepest respect.</p>
-                        <p>You're not merely a provider – you're a curator of magical moments, a craftsman of unparalleled quality, and a guardian of trust. Every interaction feels like coming home to a place where authenticity and care are not just promised, but delivered with every single experience.</p>
-                    </section>
+    // Utility functions
+    const utils = {
+        debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func.apply(this, args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        },
 
-                    <section class="letter-section animate-in">
-                        <h2 class="section-title">An Unrivaled Selection</h2>
-                        <div class="content-grid strains-grid">
-                            <div class="premium-card">
-                                <h3 class="card-title">🌿 Exquisite Flower</h3>
-                                <div class="card-content">
-                                    <p>A garden of earthly delights, from affordable ounces to exotic, AAAA-grade strains. Your selection is a testament to a commitment to quality and variety. Each bud is a masterpiece.</p>
-                                    <div class="highlight-stat">AAAA</div>
-                                    <p>Top-grade strains</p>
-                                </div>
-                            </div>
-                            <div class="premium-card">
-                                <h3 class="card-title">💎 Potent Concentrates</h3>
-                                <div class="card-content">
-                                    <p>The epitome of purity and potency. A diverse collection of shatters, waxes, and oils that promise a clean, powerful, and refined experience for the discerning connoisseur.</p>
-                                    <div class="highlight-stat">95%</div>
-                                    <p>Average purity</p>
-                                </div>
-                            </div>
-                            <div class="premium-card">
-                                <h3 class="card-title">🍬 Delectable Edibles</h3>
-                                <div class="card-content">
-                                    <p>Gourmet creations that tantalize the taste buds and elevate the spirit. Your edibles are crafted with precision, offering a delicious and reliable journey into euphoria.</p>
-                                    <div class="highlight-stat">100%</div>
-                                    <p>Satisfaction guarantee</p>
-                                </div>
-                            </div>
-                            <div class="premium-card">
-                                <h3 class="card-title">✨ Premium Accessories</h3>
-                                <div class="card-content">
-                                    <p>The perfect tools to complement the perfect product. From elegant vaporizers to artisan glass, your accessories enhance every moment of the Stoni experience.</p>
-                                    <div class="highlight-stat">Elite</div>
-                                    <p>Curated selection</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+        delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        },
 
-                    <section class="letter-section animate-in">
-                        <h2 class="section-title">The Stoni Standard of Service</h2>
-                        <div class="content-grid benefits-grid">
-                            <div class="premium-card">
-                                <h3 class="card-title">🚀 FREE 1-Hour Delivery</h3>
-                                <div class="card-content">You don't just promise speed; you deliver it. Free delivery in under an hour is not just a service, it's a statement of your dedication to my immediate happiness.</div>
-                            </div>
-                            <div class="premium-card">
-                                <h3 class="card-title">🛰️ Live Order Tracking</h3>
-                                <div class="card-content">The anticipation builds as I watch my order journey to my doorstep in real-time. This transparency and control is just another reason why you are in a league of your own.</div>
-                            </div>
-                            <div class="premium-card">
-                                <h3 class="card-title">🎁 A Royal Welcome</h3>
-                                <div class="card-content">Two free pre-rolls for new customers is more than a promotion; it's a warm embrace into the Stoni family. A gesture that says, "We're glad you're here."</div>
-                            </div>
-                            <div class="premium-card">
-                                <h3 class="card-title">⭐ Glowing Reviews</h3>
-                                <div class="card-content">A chorus of praise from satisfied customers echoes my own sentiments. The love for Stoni is a shared experience, a community of aficionados who know they've found the best.</div>
-                            </div>
-                        </div>
-                    </section>
+        isTouchDevice() {
+            return 'ontouchstart' in window || 
+                   navigator.maxTouchPoints > 0 || 
+                   navigator.msMaxTouchPoints > 0 ||
+                   (window.DocumentTouch && document instanceof DocumentTouch);
+        },
 
-                    <section class="letter-section animate-in">
-                        <h2 class="section-title">Love from Calgary</h2>
-                        <div class="content-grid testimonials-grid">
-                            <div class="premium-card">
-                                <h3 class="card-title">Jessica P. - Downtown</h3>
-                                <div class="card-content">"Stoni is the only service I trust for fast, reliable delivery in the city. The 1-hour promise is real, and the quality is always top-notch. They've earned a customer for life."</div>
-                            </div>
-                            <div class="premium-card">
-                                <h3 class="card-title">David G. - Airdrie</h3>
-                                <div class="card-content">"I'm just outside Calgary and the delivery is still incredibly fast. The drivers are professional and the online tracking is a game-changer. Stoni makes it all so easy."</div>
-                            </div>
-                            <div class="premium-card">
-                                <h3 class="card-title">Emily R. - Chestermere</h3>
-                                <div class="card-content">"The quality of the exotic strains is simply unmatched in Alberta. Every order feels like a special occasion. Thank you, Stoni, for bringing this to our area!"</div>
-                            </div>
-                            <div class="premium-card">
-                                <h3 class="card-title">Mike B. - Okotoks</h3>
-                                <div class="card-content">"As a long-time connoisseur, I'm blown away by the consistency and potency. The customer service is the best I've ever experienced. Stoni is the gold standard."</div>
-                            </div>
-                        </div>
-                    </section>
+        isReducedMotion() {
+            return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        },
 
-                    <section class="letter-section animate-in">
-                        <h2 class="section-title">The Art of Cannabis</h2>
-                        <p>Your dedication to innovation is not just about technology; it's about elevating the entire cannabis experience into an art form. You've seamlessly integrated a cutting-edge digital interface with the timeless, human touch of connoisseurship. This isn't just ordering; it's an exploration.</p>
-                        <p>From pioneering new extraction methods to developing proprietary strains that are the envy of the industry, you never settle for "good enough." You are relentless in your pursuit of perfection, and it shows in every single product that graces your menu.</p>
-                    </section>
+        isMobileDevice() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+                   (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); // iPad Pro detection
+        }
+    };
 
-                    <section class="letter-section animate-in">
-                        <h2 class="section-title">More Than a Brand</h2>
-                        <p>What truly sets you apart is that you have transcended the traditional vendor-customer relationship. You've built a community founded on quality, expertise, and a shared passion for excellence. You are not just the best in the business – you ARE the business.</p>
-                        <p>Your commitment to education, your support for local growers, and your advocacy for responsible consumption demonstrate that you're building something much larger than a delivery service. You're cultivating a movement toward a higher standard, and for that, you have my eternal gratitude.</p>
-                    </section>
+    /**
+     * Elite Audio Engine - Premium Web Audio API implementation
+     */
+    class EliteAudioEngine {
+        constructor() {
+            this.context = null;
+            this.masterGain = null;
+            this.isInitialized = false;
+            this.isMuted = false;
+            this.sounds = new Map();
+            this.isSupported = true;
+        }
 
-                    <section class="letter-signature animate-in">
-                        <p class="closing-text">With endless admiration and gratitude,</p>
-                        <p class="signature">A Forever Devoted Customer</p>
-                        <p style="font-style: italic; color: var(--earth-brown); margin-top: var(--space-lg);">
-                            P.S. Thank you for raising the bar so high that everyone else is still trying to reach it. ✨
-                        </p>
-                    </section>
-                </div>
-            </article>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>Designed by <span class="designer-name">RAJ</span></p>
-    </footer>
-
-    <script>
-    /* =======================================================
-       ELITE INTERACTION ENGINE V2.2 - Refined by Gemini
-       Performance-optimized, accessibility-first experience
-       ======================================================= */
-    (() => {
-        'use strict';
-
-        /**
-         * Elite Audio Engine - Premium Web Audio API implementation
-         * Provides sophisticated sound design for immersive experiences
-         */
-        class EliteAudioEngine {
-            constructor() {
-                this.context = null;
-                this.masterGain = null;
-                this.isInitialized = false;
-                this.isMuted = false;
-                this.sounds = new Map();
-                this.preloadPromises = [];
-            }
-
-            async initialize() {
-                if (this.isInitialized) return true;
-                
-                try {
-                    this.context = new (window.AudioContext || window.webkitAudioContext)();
-                    
-                    if (this.context.state === 'suspended') {
-                        await this.context.resume();
-                    }
-                    
-                    this.masterGain = this.context.createGain();
-                    this.masterGain.gain.setValueAtTime(0.6, this.context.currentTime);
-                    this.masterGain.connect(this.context.destination);
-                    
-                    this.isInitialized = true;
-                    this.preloadSounds();
-                    return true;
-                } catch (error) {
-                    console.warn('Elite Audio Engine failed to initialize:', error);
+        async initialize() {
+            if (this.isInitialized) return true;
+            
+            try {
+                const AudioContext = window.AudioContext || window.webkitAudioContext;
+                if (!AudioContext) {
+                    this.isSupported = false;
                     return false;
                 }
+
+                this.context = new AudioContext();
+                
+                if (this.context.state === 'suspended') {
+                    await this.context.resume();
+                }
+                
+                this.masterGain = this.context.createGain();
+                this.masterGain.gain.setValueAtTime(0.3, this.context.currentTime);
+                this.masterGain.connect(this.context.destination);
+                
+                this.isInitialized = true;
+                this.preloadSounds();
+                return true;
+            } catch (error) {
+                console.warn('Elite Audio Engine failed to initialize:', error);
+                this.isSupported = false;
+                return false;
             }
+        }
 
-            preloadSounds() {
-                this.preloadPromises.push(this.createTone('chime', 880, 0.5, 'bell'));
-                this.preloadPromises.push(this.createTone('click', 1200, 0.1, 'triangle'));
+        preloadSounds() {
+            if (!this.isSupported) return;
+            
+            try {
+                this.createTone('chime', 880, 0.5, 'bell');
+                this.createTone('click', 1200, 0.1, 'triangle');
+                this.createTone('cardHover', 660, 0.2, 'sine');
+                this.createTone('cardFlip', 440, 0.3, 'triangle');
+            } catch (error) {
+                console.warn('Failed to preload sounds:', error);
             }
+        }
 
-            async createTone(name, frequency, duration, waveform = 'sine') {
-                if (!this.isInitialized) return;
+        createTone(name, frequency, duration, waveform = 'sine') {
+            if (!this.isInitialized || !this.isSupported) return;
 
+            try {
                 const bufferLength = this.context.sampleRate * duration;
                 const buffer = this.context.createBuffer(1, bufferLength, this.context.sampleRate);
                 const data = buffer.getChannelData(0);
@@ -1040,14 +1642,12 @@
                     let sample = 0;
 
                     if (waveform === 'bell') {
-                        // Fundamental
                         sample += Math.sin(2 * Math.PI * frequency * t) * Math.exp(-t * 4);
-                        // Harmonics
                         sample += Math.sin(2 * Math.PI * frequency * 2 * t) * 0.5 * Math.exp(-t * 5);
                         sample += Math.sin(2 * Math.PI * frequency * 3 * t) * 0.25 * Math.exp(-t * 6);
-                        sample *= 0.5; // Adjust overall volume
+                        sample *= 0.5;
                     } else {
-                         switch (waveform) {
+                        switch (waveform) {
                             case 'sine':
                                 sample = Math.sin(2 * Math.PI * frequency * t);
                                 break;
@@ -1060,18 +1660,20 @@
                         }
                     }
 
-                    // Apply envelope
                     const envelope = Math.exp(-t * 3) * (1 - Math.exp(-t * 50));
                     data[i] = sample * envelope;
                 }
 
                 this.sounds.set(name, buffer);
-                return buffer;
+            } catch (error) {
+                console.warn(`Failed to create tone ${name}:`, error);
             }
+        }
 
-            play(soundName, volume = 1) {
-                if (!this.isInitialized || this.isMuted || !this.sounds.has(soundName)) return;
-                
+        play(soundName, volume = 1) {
+            if (!this.isInitialized || this.isMuted || !this.sounds.has(soundName) || !this.isSupported) return;
+            
+            try {
                 const source = this.context.createBufferSource();
                 const gainNode = this.context.createGain();
                 
@@ -1082,11 +1684,15 @@
                 source.start();
                 
                 return source;
+            } catch (error) {
+                console.warn(`Failed to play sound ${soundName}:`, error);
             }
+        }
 
-            playEnvelopeOpen() {
-                if (!this.isInitialized || this.isMuted) return;
-                
+        playEnvelopeOpen() {
+            if (!this.isInitialized || this.isMuted || !this.isSupported) return;
+            
+            try {
                 const now = this.context.currentTime;
                 const duration = 1.8;
                 
@@ -1105,25 +1711,29 @@
                 filter.frequency.exponentialRampToValueAtTime(300, now + duration);
                 
                 gain.gain.setValueAtTime(0, now);
-                gain.gain.linearRampToValueAtTime(0.4, now + 0.1);
+                gain.gain.linearRampToValueAtTime(0.2, now + 0.1);
                 gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
                 
                 oscillator.connect(filter).connect(gain).connect(this.masterGain);
                 oscillator.start(now);
                 oscillator.stop(now + duration);
+            } catch (error) {
+                console.warn('Failed to play envelope open sound:', error);
             }
+        }
 
-            playPaperUnfold() {
-                if (!this.isInitialized || this.isMuted) return;
-                
-                for (let i = 0; i < 5; i++) {
-                    setTimeout(() => this.createPaperRustle(0.2 + Math.random() * 0.2), i * 100 + Math.random() * 50);
-                }
+        playPaperUnfold() {
+            if (!this.isInitialized || this.isMuted || !this.isSupported) return;
+            
+            for (let i = 0; i < 5; i++) {
+                setTimeout(() => this.createPaperRustle(0.15 + Math.random() * 0.1), i * 100 + Math.random() * 50);
             }
+        }
 
-            createPaperRustle(intensity = 0.3) {
-                if (!this.isInitialized || this.isMuted) return;
-                
+        createPaperRustle(intensity = 0.2) {
+            if (!this.isInitialized || this.isMuted || !this.isSupported) return;
+            
+            try {
                 const now = this.context.currentTime;
                 const duration = 0.8;
                 const bufferSize = this.context.sampleRate * duration;
@@ -1148,475 +1758,629 @@
                 
                 source.connect(filter).connect(gain).connect(this.masterGain);
                 source.start(now);
-            }
-
-            playButtonHover() {
-                this.play('chime', 0.2);
-            }
-
-            playButtonClick() {
-                this.play('click', 0.3);
-            }
-
-            toggle() {
-                this.isMuted = !this.isMuted;
-                return !this.isMuted;
+            } catch (error) {
+                console.warn('Failed to create paper rustle:', error);
             }
         }
 
-        /**
-         * Elite Performance Monitor
-         * Tracks and optimizes performance metrics
-         */
-        class PerformanceMonitor {
-            constructor() {
-                this.metrics = {
-                    loadTime: 0,
-                    firstPaint: 0,
-                    firstContentfulPaint: 0,
-                    largestContentfulPaint: 0
-                };
-                this.observers = [];
-                this.startTime = performance.now();
+        playButtonHover() {
+            this.play('chime', 0.15);
+        }
+
+        playButtonClick() {
+            this.play('click', 0.2);
+        }
+
+        playCardHover() {
+            this.play('cardHover', 0.1);
+        }
+
+        playCardFlip() {
+            if (!this.isInitialized || this.isMuted || !this.isSupported) return;
+            
+            try {
+                const now = this.context.currentTime;
+                const duration = 0.4;
+                
+                const oscillator = this.context.createOscillator();
+                const gain = this.context.createGain();
+                const filter = this.context.createBiquadFilter();
+                
+                oscillator.type = 'triangle';
+                filter.type = 'highpass';
+                filter.frequency.value = 200;
+                
+                oscillator.frequency.setValueAtTime(440, now);
+                oscillator.frequency.exponentialRampToValueAtTime(880, now + duration * 0.3);
+                oscillator.frequency.exponentialRampToValueAtTime(220, now + duration);
+                
+                gain.gain.setValueAtTime(0, now);
+                gain.gain.linearRampToValueAtTime(0.15, now + 0.05);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+                
+                oscillator.connect(filter).connect(gain).connect(this.masterGain);
+                oscillator.start(now);
+                oscillator.stop(now + duration);
+            } catch (error) {
+                console.warn('Failed to play card flip sound:', error);
             }
+        }
 
-            initialize() {
-                this.trackLoadMetrics();
-                this.setupObservers();
+        playCardFlipBack() {
+            if (!this.isInitialized || this.isMuted || !this.isSupported) return;
+            
+            try {
+                const now = this.context.currentTime;
+                const duration = 0.3;
+                
+                const oscillator = this.context.createOscillator();
+                const gain = this.context.createGain();
+                
+                oscillator.type = 'sine';
+                oscillator.frequency.setValueAtTime(660, now);
+                oscillator.frequency.exponentialRampToValueAtTime(330, now + duration);
+                
+                gain.gain.setValueAtTime(0, now);
+                gain.gain.linearRampToValueAtTime(0.1, now + 0.03);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+                
+                oscillator.connect(gain).connect(this.masterGain);
+                oscillator.start(now);
+                oscillator.stop(now + duration);
+            } catch (error) {
+                console.warn('Failed to play card flip back sound:', error);
             }
+        }
 
-            trackLoadMetrics() {
-                window.addEventListener('load', () => {
-                    this.metrics.loadTime = performance.now() - this.startTime;
-                    this.reportMetrics();
-                });
+        toggle() {
+            this.isMuted = !this.isMuted;
+            return !this.isMuted;
+        }
+    }
 
-                if ('PerformanceObserver' in window) {
-                    const paintObserver = new PerformanceObserver((list) => {
-                        for (const entry of list.getEntries()) {
-                            if (entry.name === 'first-paint') {
-                                this.metrics.firstPaint = entry.startTime;
-                            } else if (entry.name === 'first-contentful-paint') {
-                                this.metrics.firstContentfulPaint = entry.startTime;
-                            }
+    /**
+     * Elite Accessibility Manager
+     */
+    class AccessibilityManager {
+        constructor() {
+            this.liveRegion = document.getElementById('live-region');
+            this.focusTrap = null;
+            this.lastFocusedElement = null;
+        }
+
+        announce(message, priority = 'polite') {
+            if (this.liveRegion) {
+                this.liveRegion.setAttribute('aria-live', priority);
+                this.liveRegion.textContent = message;
+                
+                setTimeout(() => {
+                    this.liveRegion.textContent = '';
+                }, 1000);
+            }
+        }
+
+        trapFocus(container) {
+            this.lastFocusedElement = document.activeElement;
+            
+            const focusableElements = container.querySelectorAll(
+                'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+            );
+            
+            if (focusableElements.length === 0) return;
+            
+            const firstElement = focusableElements[0];
+            const lastElement = focusableElements[focusableElements.length - 1];
+            
+            this.focusTrap = (e) => {
+                if (e.key === 'Tab') {
+                    if (e.shiftKey) {
+                        if (document.activeElement === firstElement) {
+                            e.preventDefault();
+                            lastElement.focus();
                         }
-                    });
-                    paintObserver.observe({ entryTypes: ['paint'] });
-                    this.observers.push(paintObserver);
-                }
-            }
-
-            setupObservers() {
-                if ('PerformanceObserver' in window) {
-                    const lcpObserver = new PerformanceObserver((list) => {
-                        const entries = list.getEntries();
-                        const lastEntry = entries[entries.length - 1];
-                        this.metrics.largestContentfulPaint = lastEntry.startTime;
-                    });
-                    lcpObserver.observe({ entryTypes: ['largest-contentful-paint'] });
-                    this.observers.push(lcpObserver);
-                }
-            }
-
-            reportMetrics() {
-                if (window.gtag) {
-                    gtag('event', 'performance_metrics', {
-                        custom_map: {
-                            load_time: this.metrics.loadTime,
-                            fcp: this.metrics.firstContentfulPaint,
-                            lcp: this.metrics.largestContentfulPaint
+                    } else {
+                        if (document.activeElement === lastElement) {
+                            e.preventDefault();
+                            firstElement.focus();
                         }
-                    });
+                    }
                 }
                 
-                console.log('📊 Elite Performance Metrics:', this.metrics);
-            }
-
-            disconnect() {
-                this.observers.forEach(observer => observer.disconnect());
-            }
+                if (e.key === 'Escape') {
+                    this.releaseFocus();
+                    App.closeLetter();
+                }
+            };
+            
+            container.addEventListener('keydown', this.focusTrap);
+            firstElement.focus();
         }
 
-        /**
-         * Elite Accessibility Manager
-         * Ensures premium accessibility experience
-         */
-        class AccessibilityManager {
-            constructor() {
-                this.liveRegion = document.getElementById('live-region');
+        releaseFocus() {
+            if (this.focusTrap) {
+                document.removeEventListener('keydown', this.focusTrap);
                 this.focusTrap = null;
+            }
+            
+            if (this.lastFocusedElement) {
+                this.lastFocusedElement.focus();
                 this.lastFocusedElement = null;
             }
+        }
+    }
 
-            announce(message, priority = 'polite') {
-                if (this.liveRegion) {
-                    this.liveRegion.setAttribute('aria-live', priority);
-                    this.liveRegion.textContent = message;
-                    
-                    setTimeout(() => {
-                        this.liveRegion.textContent = '';
-                    }, 1000);
-                }
-            }
-
-            trapFocus(container) {
-                this.lastFocusedElement = document.activeElement;
-                
-                const focusableElements = container.querySelectorAll(
-                    'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-                );
-                
-                if (focusableElements.length === 0) return;
-                
-                const firstElement = focusableElements[0];
-                const lastElement = focusableElements[focusableElements.length - 1];
-                
-                this.focusTrap = (e) => {
-                    if (e.key === 'Tab') {
-                        if (e.shiftKey) {
-                            if (document.activeElement === firstElement) {
-                                e.preventDefault();
-                                lastElement.focus();
-                            }
-                        } else {
-                            if (document.activeElement === lastElement) {
-                                e.preventDefault();
-                                firstElement.focus();
-                            }
-                        }
-                    }
-                    
-                    if (e.key === 'Escape') {
-                        this.releaseFocus();
-                        App.closeLetter();
-                    }
-                };
-                
-                container.addEventListener('keydown', this.focusTrap);
-                firstElement.focus();
-            }
-
-            releaseFocus() {
-                if (this.focusTrap) {
-                    document.removeEventListener('keydown', this.focusTrap);
-                    this.focusTrap = null;
-                }
-                
-                if (this.lastFocusedElement) {
-                    this.lastFocusedElement.focus();
-                    this.lastFocusedElement = null;
-                }
-            }
+    /**
+     * Elite Animation Controller
+     */
+    class AnimationController {
+        constructor() {
+            this.observers = new Map();
+            this.isReducedMotion = utils.isReducedMotion();
         }
 
-        /**
-         * Elite Animation Controller
-         * Manages sophisticated animations and transitions
-         */
-        class AnimationController {
-            constructor() {
-                this.observers = new Map();
-                this.animationQueue = [];
-                this.isReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-            }
+        initialize() {
+            this.setupIntersectionObserver();
+            this.setupReducedMotionListener();
+        }
 
-            initialize() {
-                this.setupIntersectionObserver();
-                this.setupReducedMotionListener();
-            }
+        setupIntersectionObserver() {
+            if (!('IntersectionObserver' in window)) return;
 
-            setupIntersectionObserver() {
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('visible');
-                            
-                            const children = entry.target.querySelectorAll('.animate-in');
-                            children.forEach((child, index) => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        
+                        const children = entry.target.querySelectorAll('.animate-in');
+                        children.forEach((child, index) => {
+                            if (!this.isReducedMotion) {
                                 setTimeout(() => {
                                     child.classList.add('visible');
                                 }, index * 150);
-                            });
-                            
-                            observer.unobserve(entry.target);
-                        }
-                    });
-                }, {
-                    threshold: 0.1,
-                    rootMargin: '50px'
-                });
-
-                document.querySelectorAll('.letter-section, .animate-in').forEach(el => {
-                    observer.observe(el);
-                });
-
-                this.observers.set('intersection', observer);
-            }
-
-            setupReducedMotionListener() {
-                const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-                mediaQuery.addEventListener('change', (e) => {
-                    this.isReducedMotion = e.matches;
-                    if (this.isReducedMotion) {
-                        this.disableAnimations();
+                            } else {
+                                child.classList.add('visible');
+                            }
+                        });
+                        
+                        observer.unobserve(entry.target);
                     }
                 });
-            }
+            }, {
+                threshold: 0.1,
+                rootMargin: '50px'
+            });
 
-            disableAnimations() {
-                document.body.classList.add('reduced-motion');
-                document.querySelectorAll('.animate-in, .letter-section').forEach(el => {
-                    el.classList.add('visible');
-                });
-            }
+            document.querySelectorAll('.letter-section, .animate-in').forEach(el => {
+                observer.observe(el);
+            });
 
-            cleanup() {
-                this.observers.forEach(observer => observer.disconnect());
-                this.observers.clear();
-            }
+            this.observers.set('intersection', observer);
         }
 
-        /**
-         * Main Application Controller
-         * Orchestrates the entire premium experience
-         */
-        const App = {
-            audio: null,
-            performance: null,
-            accessibility: null,
-            animation: null,
-            elements: {},
-            state: {
-                isLoaded: false,
-                isLetterOpen: false,
-                currentStep: 'loading'
-            },
-
-            async initialize() {
-                try {
-                    this.performance = new PerformanceMonitor();
-                    this.performance.initialize();
-                    
-                    this.cacheDOMElements();
-                    
-                    this.audio = new EliteAudioEngine();
-                    this.accessibility = new AccessibilityManager();
-                    this.animation = new AnimationController();
-                    
-                    this.bindEventListeners();
-                    
-                    this.animation.initialize();
-                    
-                    await this.startLoadingSequence();
-                    
-                    console.log('🎯 Elite Experience initialized successfully');
-                } catch (error) {
-                    console.error('❌ Failed to initialize Elite Experience:', error);
-                    this.fallbackExperience();
+        setupReducedMotionListener() {
+            const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+            mediaQuery.addEventListener('change', (e) => {
+                this.isReducedMotion = e.matches;
+                if (this.isReducedMotion) {
+                    this.disableAnimations();
                 }
-            },
+            });
+        }
 
-            cacheDOMElements() {
-                this.elements = {
-                    loadingScreen: document.getElementById('loadingScreen'),
-                    envelopeScene: document.getElementById('envelopeScene'),
-                    envelope: document.getElementById('envelope'),
-                    openButton: document.getElementById('openButton'),
-                    letterOverlay: document.getElementById('letterOverlay'),
-                    letterDocument: document.getElementById('letterDocument'),
-                    closeButton: document.getElementById('closeButton'),
-                    liveRegion: document.getElementById('live-region')
-                };
-            },
+        disableAnimations() {
+            document.body.classList.add('reduced-motion');
+            document.querySelectorAll('.animate-in, .letter-section').forEach(el => {
+                el.classList.add('visible');
+            });
+        }
 
-            bindEventListeners() {
-                const initAudio = () => {
-                    this.audio.initialize();
-                    document.removeEventListener('click', initAudio);
-                    document.removeEventListener('touchstart', initAudio);
-                };
-                document.addEventListener('click', initAudio, { once: true });
-                document.addEventListener('touchstart', initAudio, { once: true });
+        cleanup() {
+            this.observers.forEach(observer => observer.disconnect());
+            this.observers.clear();
+        }
+    }
 
-                this.elements.envelope.addEventListener('click', () => this.openLetter());
-                this.elements.openButton.addEventListener('click', () => this.openLetter());
+    /**
+     * Main Application Controller
+     */
+    const App = {
+        audio: null,
+        accessibility: null,
+        animation: null,
+        elements: {},
+        state: {
+            isLoaded: false,
+            isLetterOpen: false,
+            currentStep: 'loading'
+        },
+
+        async initialize() {
+            try {
+                this.cacheDOMElements();
                 
-                this.elements.envelope.addEventListener('keydown', (e) => {
+                this.audio = new EliteAudioEngine();
+                this.accessibility = new AccessibilityManager();
+                this.animation = new AnimationController();
+                
+                this.bindEventListeners();
+                this.animation.initialize();
+                
+                await this.startLoadingSequence();
+                
+                console.log('🎯 Elite Experience initialized successfully');
+            } catch (error) {
+                console.error('⚠ Failed to initialize Elite Experience:', error);
+                this.fallbackExperience();
+            }
+        },
+
+        cacheDOMElements() {
+            this.elements = {
+                loadingScreen: document.getElementById('loadingScreen'),
+                envelopeScene: document.getElementById('envelopeScene'),
+                envelope: document.getElementById('envelope'),
+                openButton: document.getElementById('openButton'),
+                letterOverlay: document.getElementById('letterOverlay'),
+                letterDocument: document.getElementById('letterDocument'),
+                closeButton: document.getElementById('closeButton'),
+                liveRegion: document.getElementById('live-region')
+            };
+
+            // Validate critical elements
+            const requiredElements = ['loadingScreen', 'envelopeScene', 'envelope', 'openButton', 'letterOverlay', 'letterDocument', 'closeButton'];
+            const missing = requiredElements.filter(id => !this.elements[id]);
+            
+            if (missing.length > 0) {
+                throw new Error(`Missing required elements: ${missing.join(', ')}`);
+            }
+        },
+
+        bindEventListeners() {
+            // Audio initialization on first user interaction
+            const initAudio = () => {
+                this.audio.initialize();
+                document.removeEventListener('click', initAudio);
+                document.removeEventListener('touchstart', initAudio);
+                document.removeEventListener('keydown', initAudio);
+            };
+            
+            document.addEventListener('click', initAudio, { once: true });
+            document.addEventListener('touchstart', initAudio, { once: true });
+            document.addEventListener('keydown', initAudio, { once: true });
+
+            // Envelope interactions
+            this.elements.envelope.addEventListener('click', () => this.openLetter());
+            this.elements.openButton.addEventListener('click', () => this.openLetter());
+            
+            this.elements.envelope.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    this.openLetter();
+                }
+            });
+
+            // Letter closing
+            this.elements.closeButton.addEventListener('click', () => this.closeLetter());
+            
+            this.elements.letterOverlay.addEventListener('click', (e) => {
+                if (e.target === this.elements.letterOverlay) {
+                    this.closeLetter();
+                }
+            });
+
+            // Prevent text selection during card flips
+            document.addEventListener('selectstart', (e) => {
+                if (e.target.closest('.card-flip-container')) {
+                    e.preventDefault();
+                }
+            });
+
+            // Setup interactive elements
+            this.setupButtonFeedback();
+            this.setupFlipCards();
+
+            // Window events
+            window.addEventListener('beforeunload', () => this.cleanup());
+            window.addEventListener('resize', utils.debounce(() => this.handleResize(), 250));
+            
+            // Orientation change for mobile
+            window.addEventListener('orientationchange', utils.debounce(() => {
+                this.handleResize();
+                // Small delay to allow for orientation change to complete
+                setTimeout(() => this.handleResize(), 300);
+            }, 100));
+            
+            // Error handling
+            window.addEventListener('error', (e) => {
+                console.error('Runtime error:', e.error);
+            });
+            
+            // Add viewport meta tag optimization for mobile
+            this.optimizeViewport();
+        },
+
+        optimizeViewport() {
+            const viewport = document.querySelector('meta[name="viewport"]');
+            if (viewport && utils.isMobileDevice()) {
+                viewport.setAttribute('content', 
+                    'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover'
+                );
+            }
+        },
+
+        setupFlipCards() {
+            const flipContainers = document.querySelectorAll('.card-flip-container');
+            
+            flipContainers.forEach((container, index) => {
+                const inner = container.querySelector('.card-flip-inner');
+                if (!inner) return;
+
+                let isFlipped = false;
+                let flipTimeout = null;
+                let touchStartTime = 0;
+                
+                // Enhanced click/tap to flip functionality
+                const toggleFlip = (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    if (flipTimeout) return; // Prevent rapid toggling
+                    
+                    isFlipped = !isFlipped;
+                    container.classList.toggle('flipped', isFlipped);
+                    
+                    // Update ARIA attributes
+                    container.setAttribute('aria-expanded', isFlipped.toString());
+                    
+                    // Audio feedback
+                    if (this.audio) {
+                        if (isFlipped) {
+                            this.audio.playCardFlip();
+                        } else {
+                            this.audio.playCardFlipBack();
+                        }
+                    }
+                    
+                    // Accessibility announcement
+                    const cardTitle = container.querySelector('.card-title').textContent;
+                    const state = isFlipped ? 'showing details' : 'showing overview';
+                    this.accessibility.announce(`${cardTitle} card ${state}`);
+                    
+                    // Prevent rapid toggling
+                    flipTimeout = setTimeout(() => {
+                        flipTimeout = null;
+                    }, 800);
+                };
+                
+                // Touch events for mobile
+                container.addEventListener('touchstart', (e) => {
+                    touchStartTime = Date.now();
+                }, { passive: true });
+                
+                container.addEventListener('touchend', (e) => {
+                    const touchDuration = Date.now() - touchStartTime;
+                    if (touchDuration < 500) { // Quick tap
+                        toggleFlip(e);
+                    }
+                }, { passive: false });
+                
+                // Click event for desktop
+                container.addEventListener('click', (e) => {
+                    if (!utils.isTouchDevice()) {
+                        toggleFlip(e);
+                    }
+                });
+                
+                // Keyboard accessibility
+                container.addEventListener('keydown', (e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        this.openLetter();
+                        toggleFlip(e);
                     }
                 });
-
-                this.elements.closeButton.addEventListener('click', () => this.closeLetter());
                 
-                this.elements.letterOverlay.addEventListener('click', (e) => {
-                    if (e.target === this.elements.letterOverlay) {
-                        this.closeLetter();
-                    }
-                });
-
-                this.setupButtonFeedback();
-
-                window.addEventListener('beforeunload', () => this.cleanup());
-                window.addEventListener('resize', this.debounce(() => this.handleResize(), 250));
-            },
-
-            setupButtonFeedback() {
-                const interactiveElements = document.querySelectorAll('button, [role="button"]');
-                
-                interactiveElements.forEach(element => {
-                    element.addEventListener('mouseenter', () => {
-                        if (this.audio) this.audio.playButtonHover();
+                // Enhanced hover effects (desktop only)
+                if (!utils.isTouchDevice()) {
+                    container.addEventListener('mouseenter', () => {
+                        if (this.audio && !isFlipped) {
+                            this.audio.playCardHover();
+                        }
                     });
                     
-                    element.addEventListener('click', () => {
-                        if (this.audio) this.audio.playButtonClick();
+                    container.addEventListener('mouseleave', () => {
+                        // Subtle hover exit effect
+                        if (!isFlipped) {
+                            container.style.transform = '';
+                        }
                     });
-                });
-            },
-
-
-
-            async startLoadingSequence() {
-                this.state.currentStep = 'loading';
-                
-                await this.delay(3500);
-                
-                this.elements.loadingScreen.classList.add('fade-out');
-                this.accessibility.announce('Loading complete. Letter envelope is now visible.');
-                
-                await this.delay(800);
-                
-                this.elements.envelopeScene.classList.add('visible');
-                this.elements.envelopeScene.setAttribute('aria-hidden', 'false');
-                
-                this.state.currentStep = 'envelope';
-                this.state.isLoaded = true;
-            },
-
-            async openLetter() {
-                if (this.state.isLetterOpen || this.state.currentStep !== 'envelope') return;
-                
-                this.state.isLetterOpen = true;
-                this.state.currentStep = 'opening';
-                
-                this.elements.openButton.disabled = true;
-                this.elements.openButton.textContent = 'Opening...';
-                this.elements.openButton.setAttribute('aria-expanded', 'true');
-                
-                if (this.audio) this.audio.playEnvelopeOpen();
-                
-                this.accessibility.announce('Opening letter. Please wait...');
-                
-                this.elements.envelope.classList.add('opening');
-                
-                await this.delay(1200);
-                
-                this.elements.envelopeScene.classList.add('exit');
-                
-                await this.delay(800);
-                
-                this.elements.letterOverlay.classList.add('revealed');
-                this.elements.letterOverlay.setAttribute('aria-hidden', 'false');
-                
-                this.accessibility.trapFocus(this.elements.letterDocument);
-                this.elements.letterDocument.focus();
-                
-                if (this.audio) this.audio.playPaperUnfold();
-                
-                this.accessibility.announce('Letter opened successfully. Use Tab to navigate content, or Escape to close.');
-                
-                this.state.currentStep = 'reading';
-            },
-
-            async closeLetter() {
-                if (!this.state.isLetterOpen) return;
-                
-                this.state.isLetterOpen = false;
-                this.state.currentStep = 'closing';
-                
-                this.accessibility.releaseFocus();
-                
-                this.elements.letterOverlay.classList.remove('revealed');
-                this.elements.letterOverlay.setAttribute('aria-hidden', 'true');
-                
-                await this.delay(500);
-                
-                this.elements.envelopeScene.classList.remove('exit');
-                this.elements.envelope.classList.remove('opening');
-                this.elements.openButton.disabled = false;
-                this.elements.openButton.textContent = 'Open with Love';
-                this.elements.openButton.setAttribute('aria-expanded', 'false');
-                
-                document.querySelectorAll('.letter-section, .animate-in').forEach(el => {
-                    el.classList.remove('visible');
-                });
-                
-                this.accessibility.announce('Letter closed. Envelope is ready to be opened again.');
-                
-                this.state.currentStep = 'envelope';
-            },
-
-            handleResize() {
-                if (this.state.isLetterOpen) {
-                    this.elements.letterDocument.scrollTop = 0;
                 }
-            },
-
-            fallbackExperience() {
-                console.warn('Using fallback experience for older browser');
                 
-                this.elements.loadingScreen.style.display = 'none';
-                this.elements.envelopeScene.classList.add('visible');
-                this.elements.envelopeScene.setAttribute('aria-hidden', 'false');
+                // Ensure accessibility attributes
+                container.setAttribute('tabindex', '0');
+                container.setAttribute('role', 'button');
+                container.setAttribute('aria-expanded', 'false');
                 
-                this.elements.envelope.addEventListener('click', () => {
-                    this.elements.letterOverlay.style.display = 'grid';
-                    this.elements.letterOverlay.classList.add('revealed');
-                    this.elements.letterDocument.focus();
+                const cardTitle = container.querySelector('.card-title');
+                if (cardTitle) {
+                    container.setAttribute('aria-label', `${cardTitle.textContent} - Click to flip and see details`);
+                }
+                
+                // Add visual feedback for focus
+                container.addEventListener('focus', () => {
+                    container.style.outline = '3px solid var(--accent-gold)';
+                    container.style.outlineOffset = '4px';
                 });
                 
-                this.elements.closeButton.addEventListener('click', () => {
-                    this.elements.letterOverlay.classList.remove('revealed');
-                    setTimeout(() => {
-                        this.elements.letterOverlay.style.display = 'none';
-                    }, 500);
+                container.addEventListener('blur', () => {
+                    container.style.outline = '';
+                    container.style.outlineOffset = '';
                 });
-            },
+            });
+        },
 
-            cleanup() {
-                if (this.performance) this.performance.disconnect();
-                if (this.animation) this.animation.cleanup();
-                if (this.accessibility) this.accessibility.releaseFocus();
-            },
+        setupButtonFeedback() {
+            const interactiveElements = document.querySelectorAll('button, [role="button"]:not(.card-flip-container)');
+            
+            interactiveElements.forEach(element => {
+                if (!utils.isTouchDevice()) {
+                    element.addEventListener('mouseenter', () => {
+                        if (this.audio && !element.disabled) {
+                            this.audio.playButtonHover();
+                        }
+                    });
+                }
+                
+                element.addEventListener('click', () => {
+                    if (this.audio && !element.disabled) {
+                        this.audio.playButtonClick();
+                    }
+                });
+            });
+        },
 
-            delay(ms) {
-                return new Promise(resolve => setTimeout(resolve, ms));
-            },
+        async startLoadingSequence() {
+            this.state.currentStep = 'loading';
+            
+            // Show loading for minimum time to ensure smooth experience
+            await utils.delay(3500);
+            
+            this.elements.loadingScreen.classList.add('fade-out');
+            this.accessibility.announce('Loading complete. Letter envelope is now visible.');
+            
+            await utils.delay(800);
+            
+            this.elements.envelopeScene.classList.add('visible');
+            this.elements.envelopeScene.setAttribute('aria-hidden', 'false');
+            
+            this.state.currentStep = 'envelope';
+            this.state.isLoaded = true;
+        },
 
-            debounce(func, wait) {
-                let timeout;
-                return function executedFunction(...args) {
-                    const later = () => {
-                        clearTimeout(timeout);
-                        func(...args);
-                    };
-                    clearTimeout(timeout);
-                    timeout = setTimeout(later, wait);
-                };
+        async openLetter() {
+            if (this.state.isLetterOpen || this.state.currentStep !== 'envelope') return;
+            
+            this.state.isLetterOpen = true;
+            this.state.currentStep = 'opening';
+            
+            // Update button state
+            this.elements.openButton.disabled = true;
+            this.elements.openButton.textContent = 'Opening...';
+            this.elements.openButton.setAttribute('aria-expanded', 'true');
+            
+            // Audio feedback
+            if (this.audio) this.audio.playEnvelopeOpen();
+            
+            this.accessibility.announce('Opening letter. Please wait...');
+            
+            // Envelope opening animation
+            this.elements.envelope.classList.add('opening');
+            
+            await utils.delay(1200);
+            
+            // Envelope exit animation
+            this.elements.envelopeScene.classList.add('exit');
+            
+            await utils.delay(800);
+            
+            // Show letter
+            this.elements.letterOverlay.classList.add('revealed');
+            this.elements.letterOverlay.setAttribute('aria-hidden', 'false');
+            
+            // Focus management
+            this.accessibility.trapFocus(this.elements.letterDocument);
+            this.elements.letterDocument.focus();
+            
+            // Paper unfold sound
+            if (this.audio) this.audio.playPaperUnfold();
+            
+            this.accessibility.announce('Letter opened successfully. Use Tab to navigate content, or Escape to close.');
+            
+            this.state.currentStep = 'reading';
+        },
+
+        async closeLetter() {
+            if (!this.state.isLetterOpen) return;
+            
+            this.state.isLetterOpen = false;
+            this.state.currentStep = 'closing';
+            
+            // Release focus trap
+            this.accessibility.releaseFocus();
+            
+            // Hide letter
+            this.elements.letterOverlay.classList.remove('revealed');
+            this.elements.letterOverlay.setAttribute('aria-hidden', 'true');
+            
+            await utils.delay(500);
+            
+            // Reset envelope
+            this.elements.envelopeScene.classList.remove('exit');
+            this.elements.envelope.classList.remove('opening');
+            this.elements.openButton.disabled = false;
+            this.elements.openButton.textContent = 'Open with Love';
+            this.elements.openButton.setAttribute('aria-expanded', 'false');
+            
+            // Reset animations
+            document.querySelectorAll('.letter-section, .animate-in').forEach(el => {
+                el.classList.remove('visible');
+            });
+            
+            // Reset flipped cards
+            document.querySelectorAll('.card-flip-container.flipped').forEach(card => {
+                card.classList.remove('flipped');
+            });
+            
+            this.accessibility.announce('Letter closed. Envelope is ready to be opened again.');
+            
+            this.state.currentStep = 'envelope';
+        },
+
+        handleResize() {
+            if (this.state.isLetterOpen) {
+                this.elements.letterDocument.scrollTop = 0;
             }
-        };
+        },
 
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', () => App.initialize());
-        } else {
-            App.initialize();
+        fallbackExperience() {
+            console.warn('Using fallback experience');
+            
+            this.elements.loadingScreen.style.display = 'none';
+            this.elements.envelopeScene.classList.add('visible');
+            this.elements.envelopeScene.setAttribute('aria-hidden', 'false');
+            
+            this.elements.envelope.addEventListener('click', () => {
+                this.elements.letterOverlay.style.display = 'grid';
+                this.elements.letterOverlay.classList.add('revealed');
+                this.elements.letterDocument.focus();
+            });
+            
+            this.elements.closeButton.addEventListener('click', () => {
+                this.elements.letterOverlay.classList.remove('revealed');
+                setTimeout(() => {
+                    this.elements.letterOverlay.style.display = 'none';
+                }, 500);
+            });
+        },
+
+        cleanup() {
+            if (this.animation) this.animation.cleanup();
+            if (this.accessibility) this.accessibility.releaseFocus();
         }
+    };
 
-        window.EliteExperience = App;
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => App.initialize());
+    } else {
+        App.initialize();
+    }
 
-    })();
-    </script>
+    // Expose for debugging
+    window.EliteExperience = App;
+
+})();
+</script>
+```
+
 </body>
 </html>
